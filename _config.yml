@@ -33,8 +33,12 @@ header_pages:
 
 # Build settings
 exclude:
+  - vendor
   - CNAME
   - .gitignore
-  - README.md (about the repo)
+  - README.md
   - Gemfile
   - Gemfile.lock
+  - .github
+  - DEPLOY.md
+  - GITHUB_SETUP.md
