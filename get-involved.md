@@ -7,9 +7,17 @@ title: Get Involved
 
 Interested in emergency communications and amateur radio? There are many ways to get involved with WICEN WA!
 
+## On the Air
+
+WICEN-WA holds a net every week starting at 20:00 hours local. The net is held on 3.600 Mhz LSB +- QRM and also on VK6RLM in Perth and the linked Allstar Network.
+
+Please check in and let us know where our signal is reaching. 
+
 ## Becoming a Member
 
 WICEN WA welcomes amateur radio operators and others interested in emergency communications. 
+
+We have 2 levels of membership. We have an associate membership for thos who are interested in Emergency Communications and a Financial Membership which entitles you to take part in official meetings and be part of decisions.
 
 ### Requirements
 
@@ -21,33 +29,6 @@ WICEN WA welcomes amateur radio operators and others interested in emergency com
 ### How to Apply
 
 **Contact us** for membership information, application forms, and to discuss how you can contribute your skills.
-
-## Volunteer Opportunities
-
-### Radio Operators
-
-Do you hold an amateur radio license? We need experienced operators to:
-- Participate in emergency response operations
-- Support community event communications
-- Assist with training and development programs
-
-### Support Roles
-
-Non-licensed volunteers can help with:
-- Equipment maintenance and logistics
-- Event coordination and planning
-- Administrative tasks
-- Training support
-
-## Training Programs
-
-WICEN WA provides training in:
-- Emergency communications procedures
-- Radio operation and equipment
-- Emergency response protocols
-- First aid and safety procedures
-
-New members receive comprehensive training from experienced operators.
 
 ## Events & Activities
 
@@ -63,4 +44,4 @@ Ready to join? **[Contact us](/contact)** to learn more about membership, traini
 
 ---
 
-**Questions?** Visit our [Members page](/members) or [Contact us](/contact) directly.
+
