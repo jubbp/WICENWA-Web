@@ -1,0 +1,40 @@
+# Jekyll Site Configuration
+title: WICEN WA
+subtitle: Wireless Institute Civil Emergency Network Western Australia
+tagline: Trained volunteers linking the community in times of need
+description: >-
+  WICEN WA is the Wireless Institute Civil Emergency Network for Western Australia.
+  A volunteer organization providing emergency communications services to the community.
+email: wicenwa@outlook.com
+url: "" 
+baseurl: ""
+
+# Theme
+theme: minima
+
+# Markdown
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+# Collections for organizing content
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation menu - matches live site structure
+header_pages:
+  - get-involved.md
+  - future-events.md
+  - news.md
+  - members.md
+  - contact.md
+
+# Build settings
+exclude:
+  - CNAME
+  - .gitignore
+  - README.md (about the repo)
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,45 @@
+<header class="site-header">
+  <div class="header-content">
+    <div class="logo-section">
+      <a href="/" class="logo-link">
+        <img src="/assets/logo.png" alt="WICEN WA Logo" class="logo-image">
+        <span class="site-title">{{ site.title }}</span>
+      </a>
+    </div>
+    
+    <button class="hamburger-menu" id="hamburger-toggle" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="main-nav" id="mobile-menu">
+      <ul class="nav-list">
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/get-involved" class="nav-link">Get Involved</a></li>
+        <li><a href="/future-events" class="nav-link">Future Events</a></li>
+        <li><a href="/news" class="nav-link">News</a></li>
+        <li><a href="/members" class="nav-link">Members</a></li>
+        <li><a href="/contact" class="nav-link">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const hamburger = document.getElementById('hamburger-toggle');
+  const menu = document.getElementById('mobile-menu');
+  
+  hamburger.addEventListener('click', function() {
+    menu.classList.toggle('active');
+    hamburger.classList.toggle('active');
+  });
+  
+  // Close menu when a link is clicked
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function() {
+      menu.classList.remove('active');
+      hamburger.classList.remove('active');
+    });
+  });
+</script>
