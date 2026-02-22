@@ -23,22 +23,11 @@ For questions about WICEN WA and our activities:
 - **Email:** contact@wicenwa.org
 - **Visit:** [Get Involved](/get-involved)
 
-### Membership & Volunteering
-
-Interested in joining WICEN WA or volunteering?
-- **Email:** contact@wicenwa.org
-- **Visit:** [Get Involved](/get-involved) for information and to apply
-
 ### Event Support Requests
 
 Organizations seeking emergency communications support:
 - **Email:** contact@wicenwa.org
 - **Subject:** Event Support Request
-
-### Member Services
-
-For members needing technical support or to report operational issues:
-- **Email:** contact@wicenwa.org
 
 ## Stay Connected
 
@@ -52,7 +41,3 @@ For members needing technical support or to report operational issues:
 To receive WICEN WA announcements and updates, contact us to be added to our mailing list.
 
 ---
-
-**Thank you for your interest in WICEN WA!**
-
-We're committed to serving our community through skilled emergency communications support and look forward to hearing from you.
