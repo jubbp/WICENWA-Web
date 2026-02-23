@@ -32,10 +32,5 @@ jobs:
         bundle add html-proofer
         bundle exec htmlproofer ./_site --disable-external --allow-hash-href
       continue-on-error: true
-
-    - name: Deploy to GitHub Pages
-      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+    # Deployment is handled automatically by GitHub's native
+    # "pages build and deploy" workflow — no deploy step needed here.
