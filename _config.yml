@@ -41,3 +41,5 @@ exclude:
   - .github
   - DEPLOY.md
   - GITHUB_SETUP.md
+
+google_analytics: "G-1WXDCDR2CX"   # or "UA-XXXXXXXX-X"

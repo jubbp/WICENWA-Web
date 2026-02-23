@@ -49,7 +49,15 @@ WICENWA has a discord server which provides an excellent environment for interat
 
 WICEN WA welcomes amateur radio operators and others interested in emergency communications. 
 
-We have 2 levels of membership. We have an associate membership for thos who are interested in Emergency Communications and a Financial Membership which entitles you to take part in official meetings and be part of decisions.
+We have 2 levels of membership. 
+
+### Financial Member
+
+Membership of WICEN WA costs $25 and entitles you to vote on club business and participate in the comittee.
+
+### Associate Member
+
+Associate members of WICEN WA are operators who would like to participate in WICEN activies and are willing to undertake necessary training.
 
 ### Requirements
 
@@ -61,14 +69,6 @@ We have 2 levels of membership. We have an associate membership for thos who are
 ### How to Apply
 
 **Contact us** for membership information, application forms, and to discuss how you can contribute your skills.
-
-## Events & Activities
-
-- Regular training sessions
-- Equipment demonstrations
-- Community event support
-- Emergency response drills
-- Social gatherings and networking
 
 ## Get Started
 
