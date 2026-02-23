@@ -40,7 +40,7 @@ I you prefer interacting on Facebook, header over to our group page and join up.
 
 ## Join our Discord Server
 
-WICENWA has a discord server which provides an excellent environment for interation between our members and friends (mostly) without the adds and tracking.
+WICENWA has a discord server which provides an excellent environment for interaction between our members and friends (mostly) without the advertising and tracking.
 
 [Join the Discord](https://discord.gg/z4Wmgp6fa7)
 
