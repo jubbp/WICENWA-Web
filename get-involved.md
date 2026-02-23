@@ -24,6 +24,7 @@ Our net is also available ont he WA Allstar linked repeater network. You can acc
 |VK6RAV|Northam|147.275 +0.6|
 |VK6RMH|Mandurah|146.850 -0.6|
 |VK6RBY|Bunbury|146.850 -0.6|
+|---|---|---|
 
 
 Please check in and let us know where our signal is reaching. 
