@@ -5,6 +5,8 @@ title: Get Involved
 
 # Get Involved with WICEN WA
 
+![Handheld radio operations](./assets/images/Wicen9.png){: .img-right-third}
+
 Interested in emergency communications and amateur radio? There are many ways to get involved with WICEN WA!
 
 ## Join the Net
@@ -31,7 +33,7 @@ Please check in and let us know where our signal is reaching.
 ---
 
 ## Join the Mailing List
-
+![Handheld radio operations](./assets/images/Wicen10.png){: .img-right-third}
 WICENWA has a google group for discussion and distribution of information with anyone interested in WICEN and our activities.
 
 Head over to [groups.google.com](https://groups.google.com), log into your google account and search for WICENWA
