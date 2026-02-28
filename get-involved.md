@@ -26,8 +26,9 @@ Our net is also available ont he WA Allstar linked repeater network. You can acc
 |VK6RBY|Bunbury|146.850 -0.6|
 |---|---|---|
 
+Please check in and let us know where our signal is reaching.
 
-Please check in and let us know where our signal is reaching. 
+---
 
 ## Join the Mailing List
 
@@ -35,9 +36,13 @@ WICENWA has a google group for discussion and distribution of information with a
 
 Head over to [groups.google.com](https://groups.google.com), log into your google account and search for WICENWA
 
+---
+
 ## Join our Facebook group
 
-I you prefer interacting on Facebook, header over to our group page and join up.
+I you prefer interacting on Facebook, head over to our group page and join up.
+
+---
 
 ## Join our Discord Server
 
@@ -45,12 +50,13 @@ WICENWA has a discord server which provides an excellent environment for interac
 
 [Join the Discord](https://discord.gg/z4Wmgp6fa7)
 
+---
 
 ## Becoming a Member
 
-WICEN WA welcomes amateur radio operators and others interested in emergency communications. 
+WICEN WA welcomes amateur radio operators and others interested in emergency communications.
 
-We have 2 levels of membership. 
+We have 2 levels of membership.
 
 ### Financial Member
 
@@ -67,14 +73,8 @@ Associate members of WICEN WA are operators who would like to participate in WIC
 - Commitment to volunteer service
 - Attendance at training sessions
 
-### How to Apply
-
-**Contact us** for membership information, application forms, and to discuss how you can contribute your skills.
-
 ## Get Started
 
 Ready to join? **[Contact us](/contact)** to learn more about membership, training schedules, and how you can make a difference in your community.
 
 ---
-
-
