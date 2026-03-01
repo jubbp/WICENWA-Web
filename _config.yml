@@ -17,6 +17,9 @@ markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
 
+# Include future-dated posts (used for Future Events page)
+future: true
+
 # Collections for organizing content
 collections:
   pages:
