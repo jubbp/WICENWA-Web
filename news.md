@@ -9,8 +9,9 @@ Latest news and updates from WICEN WA.
 
 ## Recent Posts
 
-{% if site.posts.size > 0 %}
-  {% for post in site.posts %}
+{% assign news_posts = site.posts | where_exp: "post", "post.date <= site.time" %}
+{% if news_posts.size > 0 %}
+  {% for post in news_posts %}
   <article class="news-item">
     <h3><a href="{{ post.url }}" class="news-link">{{ post.title }}</a></h3>
     <div class="news-meta">

@@ -5,8 +5,6 @@ title: Future Events
 
 # Upcoming Events
 
-This page lists posts that are tagged with `future`. To include an event here, add `tags: [future]` to the post's front matter.
-
 {% assign events = site.tags.future %}
 {% if events %}
 	{% assign events = events | where_exp: "post", "post.date >= site.time" | sort: 'date' %}
@@ -15,22 +13,20 @@ This page lists posts that are tagged with `future`. To include an event here, a
 {% if events and events.size > 0 %}
 <ul class="future-events-list">
 {% for post in events %}
-	<li>
-		<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-		<span class="event-date"> — {{ post.date | date: "%-d %b %Y" }}</span>
-	</li>
+	<article class="news-item">
+    <h3><a href="{{ post.url }}" class="news-link">{{ post.title }}</a></h3>
+    <div class="news-meta">
+      <span class="news-date">{{ post.date | date: "%B %d, %Y" }}</span>
+      {% if post.author %}<span class="news-author">by {{ post.author }}</span>{% endif %}
+    </div>
+    <p class="news-excerpt">{{ post.excerpt }}</p>
+    <a href="{{ post.url }}" class="read-more">Read more →</a>
+  </article>
 {% endfor %}
 </ul>
 {% else %}
-<p>No future events are listed. Tag posts with <strong>future</strong> to add them here.</p>
+<p>No future events are listed. </p>
 {% endif %}
 
 ---
 
-## Requesting WICEN Support
-
-WICEN WA is available to provide communications support for community events, government activities, and emergency response operations. For requests or enquiries, please [contact us](/contact).
-
-## Latest News
-
-For news and updates about recent events and activities, [visit our News page](/news).
