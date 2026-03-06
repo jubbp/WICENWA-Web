@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+sidebar: false
 ---
 
 <section class="hero-section">

@@ -1,0 +1,49 @@
+<aside class="sidebar">
+
+  <!-- Recent News Widget -->
+  <div class="sidebar-widget">
+    <h3 class="sidebar-widget-title">Recent News</h3>
+    {% assign news_posts = site.posts | reject: "tags", "future" %}
+    {% if news_posts.size > 0 %}
+      <ul class="sidebar-list">
+        {% for post in news_posts limit: 4 %}
+          <li class="sidebar-list-item">
+            <a href="{{ post.url }}" class="sidebar-link">{{ post.title }}</a>
+            <span class="sidebar-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+      <a href="/news" class="sidebar-more">All news →</a>
+    {% else %}
+      <p class="sidebar-empty">No news yet — check back soon.</p>
+    {% endif %}
+  </div>
+
+  <!-- Upcoming Events Widget -->
+  <div class="sidebar-widget">
+    <h3 class="sidebar-widget-title">Upcoming Events</h3>
+    {% assign future_events = site.posts | where_exp: "post", "post.tags contains 'future'" | sort: "date" %}
+    {% if future_events.size > 0 %}
+      <ul class="sidebar-list">
+        {% for post in future_events limit: 4 %}
+          <li class="sidebar-list-item">
+            <a href="{{ post.url }}" class="sidebar-link">{{ post.title }}</a>
+            <span class="sidebar-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+      <a href="/future-events" class="sidebar-more">All events →</a>
+    {% else %}
+      <p class="sidebar-empty">No upcoming events listed.</p>
+    {% endif %}
+  </div>
+
+  <!-- WIA Affiliation Widget -->
+  <div class="">
+    
+    <a href="https://www.wia.org.au" target="_blank" rel="noopener noreferrer">
+      <img src="/assets/WIA_Affiliated_Club_Logo.jpg" alt="WIA Affiliated Club" class="affiliation-logo">
+    </a>
+  </div>
+
+</aside>

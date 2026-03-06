@@ -52,6 +52,7 @@ APRS BBS's exist and can quickly be setup as required.
 
 WICEN Has a couple of frequencies allocated in the 5Mhz band for Emergency use. 
 
+WICEN WA has only just become aware of this allocation and we are actively looking to how we can leverage these frequencies in our operations.
 
 
 ### Links

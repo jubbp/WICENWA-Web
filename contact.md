@@ -7,15 +7,7 @@ title: Contact Us
 
 Get in touch with us to learn more about WICEN WA, membership, or volunteer opportunities.
 
-## Contact Information
-
-**Email:** wicenwa@outlook.com
-
-**Postal Address"** PO Box 425 Cannington WA 6987 
-
----
-
-
+<div class="contact-grid">
 
   <div class="contact-info">
     <h2>Contact Information</h2>
@@ -35,7 +27,7 @@ Get in touch with us to learn more about WICEN WA, membership, or volunteer oppo
     <h2>Send Us a Message</h2>
     <form
       class="contact-form"
-      action="https://formspree.io/f/YOUR_FORM_ID"
+      action="https://formspree.io/f/mlgperar"
       method="POST"
     >
       <div class="form-group">

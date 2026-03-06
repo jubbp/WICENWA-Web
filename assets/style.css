@@ -731,6 +731,161 @@ tbody tr:hover {
   background-color: #fef3d0;
 }
 
+/* ── Page Layout with Sidebar ────────────────────────── */
+.page-layout {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.page-content {
+  min-width: 0; /* prevent grid blowout */
+}
+
+/* post inside sidebar layout: fill the column instead of self-centering */
+.page-content .post {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-content .post-navigation {
+  max-width: none;
+  margin: 3rem 0 2rem;
+  padding: 0;
+}
+
+/* ── Sidebar ─────────────────────────────────────────── */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar-widget {
+  background-color: var(--light-gray);
+  border-radius: 6px;
+  padding: 1.25rem;
+  border-top: 3px solid var(--primary-yellow);
+}
+
+.sidebar-widget-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--primary-dark);
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  margin: 0;
+}
+
+.sidebar-list-item:last-child {
+  border-bottom: none;
+}
+
+.sidebar-link {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.sidebar-link:hover {
+  color: var(--primary-yellow);
+  text-decoration: none;
+}
+
+.sidebar-meta {
+  font-size: 0.76rem;
+  color: #888;
+}
+
+.sidebar-more {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.sidebar-more:hover {
+  color: var(--primary-yellow);
+  text-decoration: none;
+}
+
+.sidebar-empty {
+  font-size: 0.88rem;
+  color: #888;
+  font-style: italic;
+  margin: 0;
+}
+
+/* WIA Affiliation widget */
+.affiliation-logo {
+  display: block;
+  width: 75%;
+  height: auto;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+/* ── Responsive sidebar ──────────────────────────────── */
+@media (max-width: 960px) {
+  .page-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .sidebar-widget {
+    flex: 1;
+    min-width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-layout {
+    padding: 0 1rem;
+    margin: 1rem auto;
+  }
+
+  .sidebar {
+    flex-direction: column;
+  }
+
+  .sidebar-widget {
+    min-width: 0;
+  }
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
