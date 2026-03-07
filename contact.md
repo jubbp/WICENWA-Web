@@ -10,7 +10,6 @@ Get in touch with us to learn more about WICEN WA, membership, or volunteer oppo
 <div class="contact-grid">
 
   <div class="contact-info">
-    <h2>Contact Information</h2>
     <ul class="contact-details">
       <li>
         <span class="contact-label">Email</span>
