@@ -5,6 +5,12 @@ pace_nav: true
 PaceNavTitle: 01. Overview
 ---
 
+## DRAFT ONLY
+
+This Plan is currently only a DRAFT and has not been accepted or implemented by WICEN WA. It is largely incomplete.
+
+
+
 This document describes the communications architecture used by WICENWA during emergency operations.
 
 The plan follows the **PACE model**:
