@@ -21,17 +21,28 @@
   {% include header.html %}
   
   <main role="main">
-    {% if page.sidebar == false %}
+    {% if page.pace_nav %}
+      <div class="pace-layout">
+        {% include pace-nav.html %}
+        <div class="page-content">
+          {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+          {{ content }}
+        </div>
+      </div>
+    {% elsif page.sidebar == false %}
       {% if page.layout == 'default' %}
       <div class="container">
+        {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
         {{ content }}
       </div>
       {% else %}
+      {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
       {{ content }}
       {% endif %}
     {% else %}
       <div class="page-layout">
         <div class="page-content">
+          {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
           {{ content }}
         </div>
         {% include sidebar.html %}

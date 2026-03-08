@@ -20,20 +20,6 @@ kramdown:
 # Include future-dated posts (used for Future Events page)
 future: true
 
-# Collections for organizing content
-collections:
-  pages:
-    output: true
-    permalink: /:collection/:name/
-
-# Navigation menu - matches live site structure
-header_pages:
-  - get-involved.md
-  - future-events.md
-  - news.md
-  - members.md
-  - contact.md
-
 # Build settings
 exclude:
   - vendor

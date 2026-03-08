@@ -1,0 +1,13 @@
+<nav class="pace-nav">
+  <div class="pace-nav-header">PACE Plan</div>
+  <ul class="pace-nav-list">
+    {% assign pace_pages = site.pages | where_exp: "p", "p.pace_nav" | sort: "PaceNavTitle" %}
+    {% for p in pace_pages %}
+      {% if p.PaceNavTitle %}
+      <li>
+        <a href="{{ p.url }}"{% if page.path == p.path %} class="pace-nav-active"{% endif %}>{{ p.PaceNavTitle }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
