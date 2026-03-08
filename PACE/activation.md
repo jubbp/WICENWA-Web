@@ -18,7 +18,7 @@ Activation may occur due to:
 
 Activation may be initiated by:
 
-- WICENWA State Coordinator
+- WICEN-WA State Coordinator
 - Deputy Coordinator
 - Designated Incident Controller
 
@@ -26,8 +26,8 @@ Activation may be initiated by:
 
 | Level | Method | Description |
 |------|------|-------------|
-| PRIMARY | Internet Messaging | Signal / WhatsApp / Telegram alert groups |
-| ALTERNATE | Email Distribution | WICENWA mailing list |
+| PRIMARY | Internet Messaging | WICEN-WA App / Signal / Discord |
+| ALTERNATE | Email Distribution | WICEN-WA email group |
 | CONTINGENCY | SMS Broadcast | Bulk SMS alert |
 | EMERGENCY | Amateur Radio Alert Net | HF activation frequency |
 
@@ -35,23 +35,23 @@ Activation may be initiated by:
 
 All activation messages should follow a consistent structure.
 
-WICENWA ACTIVATION
+WICEN-WA ACTIVATION
 
-Event:
-Location:
-Activation Level:
-Reporting Location:
-Primary Net Frequency:
-Online Information:
-Next Update Time:
+- Event:
+- Location:
+- Activation Level:
+- Reporting Location:
+- Primary Net Frequency:
+- Online Information:
+- Next Update Time:
 
 Example:
 
-WICENWA ACTIVATION
+WICEN-WA ACTIVATION
 
-Event: Bushfire Communications Support
-Location: Wheatbelt
-Activation Level: Standby
-Primary Net: 7.110 MHz LSB
-Information: https://wicenwa.org/incident
-Next Update: 1400 WST
+- Event: Bushfire Communications Support
+- Location: Wheatbelt
+- Activation Level: Standby
+- Primary Net: 7.110 MHz LSB
+- Information: https://wicenwa.org/incident
+- Next Update: 1400 WST

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: WICENWA Emergency Communications Plan
+title: WICEN-WA Emergency Communications Plan
 pace_nav: true
 PaceNavTitle: 01. Overview
 ---

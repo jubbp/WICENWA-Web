@@ -59,4 +59,10 @@ WICEN WA has only just become aware of this allocation and we are actively looki
 
 
 
+## DRAFT PACE Plan
+
+WICEN-WA is in the process of drafting a PACE plan for our activations.
+
+Check out the [Draft Plan](/PACE/overview)
+
 
