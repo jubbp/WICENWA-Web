@@ -3,7 +3,6 @@ layout: default
 title: Get Involved
 ---
 
-# Get Involved with WICEN WA
 
 ![Handheld radio operations](./assets/images/Wicen9.png){: .img-right-third}
 
@@ -44,7 +43,7 @@ Head over to [groups.google.com](https://groups.google.com), log into your googl
 
 ## Join our Facebook group
 
-I you prefer interacting on Facebook, head over to our group page and join up.
+If you prefer interacting on Facebook, head over to our group page and join up.
 
 ---
 

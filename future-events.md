@@ -3,8 +3,6 @@ layout: default
 title: Future Events
 ---
 
-# Upcoming Events
-
 {% assign events = site.tags.future %}
 {% if events %}
 	{% assign events = events | where_exp: "post", "post.date >= site.time" | sort: 'date' %}
