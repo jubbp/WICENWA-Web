@@ -3,7 +3,7 @@ layout: post
 title: "John Moyle Contest 2026"
 date: 2026-03-22
 author: WICEN WA
-tags: [events, community, volunteers, future, contest]
+tags: [events, community, volunteers, contest]
 ---
 
 WICEN WA will take part in the John Moyle Contest.
