@@ -22,7 +22,7 @@
   <!-- Recent News Widget -->
   <div class="sidebar-widget">
     <h3 class="sidebar-widget-title">Recent News</h3>
-    {% assign news_posts = site.posts | reject: "tags", "future" %}
+    {% assign news_posts = site.posts | where_exp: "post", "post.tags contains 'news'" %}
     {% if news_posts.size > 0 %}
       <ul class="sidebar-list">
         {% for post in news_posts limit: 4 %}

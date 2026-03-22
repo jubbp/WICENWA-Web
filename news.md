@@ -9,9 +9,11 @@ Latest news and updates from WICEN WA.
 
 ## Recent Posts
 
-{% assign news_posts = site.posts | where_exp: "post", "post.date <= site.time" %}
-{% if news_posts.size > 0 %}
-  {% for post in news_posts %}
+{% assign news_posts = site.posts %}
+{% assign has_news = false %}
+{% for post in news_posts %}{% unless post.tags contains 'future' %}{% assign has_news = true %}{% endunless %}{% endfor %}
+{% if has_news %}
+  {% for post in news_posts %}{% unless post.tags contains 'future' %}
   <article class="news-item">
     <h3><a href="{{ post.url }}" class="news-link">{{ post.title }}</a></h3>
     <div class="news-meta">
@@ -21,7 +23,7 @@ Latest news and updates from WICEN WA.
     <p class="news-excerpt">{{ post.excerpt }}</p>
     <a href="{{ post.url }}" class="read-more">Read more →</a>
   </article>
-  {% endfor %}
+  {% endunless %}{% endfor %}
 {% else %}
   <p><em>Check back soon for news updates from WICEN WA.</em></p>
   <p>To see what's happening with WICEN WA, we share updates about:</p>
