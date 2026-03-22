@@ -3,7 +3,7 @@ layout: post
 title: "WICEN WA Committee and General Meeting"
 date: 2026-03-16
 author: WICEN WA
-tags: [events, community, volunteers, future]
+tags: [events, community, volunteers]
 ---
 
 The next meeting of WICEN-WA will be held on Monday 16th March at the 1st Beechboro Scouts Hall.
