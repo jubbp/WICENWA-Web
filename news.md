@@ -1,13 +1,10 @@
 ---
 layout: default
-title: News
+title: News & Updates
 ---
-
-# News & Updates
 
 Latest news and updates from WICEN WA.
 
-## Recent Posts
 
 {% assign news_posts = site.posts %}
 {% assign has_news = false %}
