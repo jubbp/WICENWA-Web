@@ -69,8 +69,18 @@ WICEN-WA ACTIVATION
 
 In the case that WICEN becomes aware of a possible need our assistance, the State Coordinator or their delagate will place WICEN "On Watch".
 
-On watch moves all members into a monitoring actively for activations messages. 
+On watch moves all members into a monitoring actively for activations messages. Members actively on watch should turn on and test their equipment. They should prepare their 72 hour kit.
 
 The State Coordinator will activate a "Watch Net" on the available frequencies in the comms plan. If necessary, they will nominate a watch station who will monitor the appropriate frequencies.
 
+Each member on watch should check in with the SC or net controller as their status (availablity, capabilities change)
+
 The State Coordinator will activate a digital information station. The digital information station wil coordinate the distribution of information in a digital form. The DIS will hopefully update the incident page on the WICEN website with up to date information. They will also instigate the Information Beacon (APRS,JS8CALL,WINLINK) which will allow members to gather information as they are possible.
+
+### "OnWatch" to Activated
+
+As the conditions deteriorate or as requested by a served agency, the State Coordinator or their delagate will move WICEN to "activated"
+
+The requirements of each activation will differ and the SC will need to distribute information as to the requirements for this acivation.
+
+Details should be quickly delivered to the DIS for distribution 
