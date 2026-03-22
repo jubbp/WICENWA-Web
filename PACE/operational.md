@@ -52,3 +52,23 @@ Equipment and resource requests
 
 sitrep  
 Situation reports
+
+## Station Modes
+
+Allocate stations to specific tasks
+
+- Winlink P2P station
+    - Dedicated Winlink Email coordinator. 
+- JS8Call Station
+    - Dedicated JS8Call Messaging Station
+- APRS Beacon Station
+    - APRS messaging station
+    - Tactical APRS Callsign?
+- Voice Net Controller VHF/UHF
+    
+- Voice Net Controller HF
+    
+- Voice Relay Station VHF/UHF
+    - Multiple Stations monitor Local Repeater(s)
+- Voice Relay Sation HF
+    - Multiple Stations monitoring HF Net stations

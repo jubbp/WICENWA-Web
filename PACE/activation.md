@@ -55,3 +55,22 @@ WICEN-WA ACTIVATION
 - Primary Net: 7.110 MHz LSB
 - Information: https://wicenwa.org/incident
 - Next Update: 1400 WST
+
+## WICEN Status
+
+- Stand By
+    - Members are maintaining wathc for activations
+- On Watch
+    - An emergency condition may exist. While not activated, WICEN members are at a higher level of monitoring and preparing for activation.
+- Activated
+    - WICEN is activated. All members should check in if not directly activated
+
+### Standby to On Watch
+
+In the case that WICEN becomes aware of a possible need our assistance, the State Coordinator or their delagate will place WICEN "On Watch".
+
+On watch moves all members into a monitoring actively for activations messages. 
+
+The State Coordinator will activate a "Watch Net" on the available frequencies in the comms plan. If necessary, they will nominate a watch station who will monitor the appropriate frequencies.
+
+The State Coordinator will activate a digital information station. The digital information station wil coordinate the distribution of information in a digital form. The DIS will hopefully update the incident page on the WICEN website with up to date information. They will also instigate the Information Beacon (APRS,JS8CALL,WINLINK) which will allow members to gather information as they are possible.
