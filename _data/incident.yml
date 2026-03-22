@@ -1,0 +1,47 @@
+# Incident Status Data
+# status: active | standby | none
+status: standby
+status_updated: "9 March 2026"
+status_message: "No active incidents. WICEN WA is on standby."
+
+# Active incidents - add entries here during an event
+# Remove or comment out when resolved
+incidents:
+  - name: Example Incident
+    type: Bushfire
+    location: Perth Hills, WA
+    date_activated: "1 March 2026"
+    status: Active
+    description: Providing communications support for the incident management team.
+    controller_callsign: VK6XXX
+    controller_name: John Smith
+
+# Comms channels - update as needed per incident
+comms_channels:
+  - name: Primary
+    detail: "80m LSB — 3.610 MHz"
+  - name: Alternate
+    detail: "40m LSB — 7.110 MHz"
+  - name: Contingency
+    detail: "20m USB — 14.300 MHz"
+  - name: Digital
+    detail: "JS8Call / Winlink — see frequencies page"
+  - name: Local VHF
+    detail: "2m 146.500— 145.200 MHz APRS"
+
+# Resource links shown on the page
+resources:
+  - name: PACE Overview
+    url: /PACE/overview
+  - name: Activation Procedures
+    url: /PACE/activation
+  - name: Activation Flowchart
+    url: /PACE/activation-flowchart
+  - name: Radio Frequencies
+    url: /PACE/radio-frequency-plans
+  - name: Message Handling
+    url: /PACE/message-handling
+  - name: Operational Plan
+    url: /PACE/operational
+  - name: Member Info
+    url: /members

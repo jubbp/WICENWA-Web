@@ -29,6 +29,8 @@ The following resources are directed towards Members of WICEN-Wa but anyone may 
 |2m||145.200 Mhz WICEN APRS|
 |70cm|438.950 Mhz FM||
 
+--- 
+
 ## Digital Messaging 
 
 JS8Call, Winlink and APRS Messaging provide realtime and some store and forward text messaging without grid usage.
@@ -48,6 +50,8 @@ With Internet access at intermediate sites, store and forward messaging is possi
 
 APRS BBS's exist and can quickly be setup as required.
 
+--- 
+
 ## 5Mhz WICEN Frequency Allocation
 
 WICEN Has a couple of frequencies allocated in the 5Mhz band for Emergency use. 
@@ -57,7 +61,7 @@ WICEN WA has only just become aware of this allocation and we are actively looki
 
 ### Links
 
-
+---
 
 ## DRAFT PACE Plan
 
