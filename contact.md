@@ -13,7 +13,7 @@ Get in touch with us to learn more about WICEN WA, membership, or volunteer oppo
     <ul class="contact-details">
       <li>
         <span class="contact-label">Email</span>
-        <a href="mailto:wicenwa@outlook.com">wicenwa@outlook.com</a>
+        <a href="mailto:mail@wicenwa.org">mail@wicenwa.org</a>
       </li>
       <li>
         <span class="contact-label">Postal Address</span>
