@@ -59,11 +59,11 @@ WICEN-WA ACTIVATION
 ## WICEN Status
 
 - Stand By
-    - Members are maintaining wathc for activations
+  - Members are maintaining watch for activations
 - On Watch
-    - An emergency condition may exist. While not activated, WICEN members are at a higher level of monitoring and preparing for activation.
+  - An emergency condition may exist. While not activated, WICEN members are at a higher level of monitoring and preparing for activation. Members should contact the SC with their current capabilities.
 - Activated
-    - WICEN is activated. All members should check in if not directly activated
+  - WICEN is activated. All members should check in if not directly activated
 
 ### Standby to On Watch
 
@@ -75,7 +75,7 @@ The State Coordinator will activate a "Watch Net" on the available frequencies i
 
 Each member on watch should check in with the SC or net controller as their status (availablity, capabilities change)
 
-The State Coordinator will activate a digital information station. The digital information station wil coordinate the distribution of information in a digital form. The DIS will hopefully update the incident page on the WICEN website with up to date information. They will also instigate the Information Beacon (APRS,JS8CALL,WINLINK) which will allow members to gather information as they are possible.
+The State Coordinator will activate a digital information station. The digital information station will coordinate the distribution of information in a digital form. The DIS will hopefully update the incident page on the WICEN website with up to date information. They will also instigate the Information Beacon (APRS,JS8CALL,WINLINK) which will allow members to gather information as they are possible.
 
 ### "OnWatch" to Activated
 
@@ -83,4 +83,12 @@ As the conditions deteriorate or as requested by a served agency, the State Coor
 
 The requirements of each activation will differ and the SC will need to distribute information as to the requirements for this acivation.
 
-Details should be quickly delivered to the DIS for distribution 
+Details should be quickly delivered to the DIS for distribution
+
+## Types of Activations
+
+When activating WICEN, the SC should determine the type of activation. If the activation is in support of a third party, there will be different requirements. The SC should determine the requirements for the activation and relay this information to the members.
+
+- WICEN Activation
+- Served Agency Activation
+- Training
