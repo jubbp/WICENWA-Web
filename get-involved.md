@@ -35,7 +35,7 @@ Please check in and let us know where our signal is reaching.
 
 WICENWA has a google group for discussion and distribution of information with anyone interested in WICEN and our activities.
 
-Head over to [groups.google.com](https://groups.google.com), log into your google account and search for WICENWA
+Head over to [groups.google.com](https://groups.google.com/g/wicenwa), log into your google account and and join our group.
 
 ---
 
