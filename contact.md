@@ -57,6 +57,7 @@ Get in touch with us to learn more about WICEN WA, membership, or volunteer oppo
 
       <!-- Honeypot spam protection -->
       <input type="text" name="_gotcha" style="display:none">
+      <input type="hidden" name="_next" value="/thank-you">
 
       <button type="submit" class="btn btn-submit">Send Message</button>
     </form>
