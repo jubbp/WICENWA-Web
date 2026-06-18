@@ -18,14 +18,12 @@ WICEN-WA holds a net every week starting at 20:00 hours local. The net runs conc
 
 Our net is also available ont he WA Allstar linked repeater network. You can access the net on one of the many repeaters and directly by connecting to the allstar network. Below are a few of the options available.
 
-|---|---|---|
-|Repeater|Area|Frequency|
-|---|---|---|
-|VK6RLM|Perth|146.750 -0.6|
-|VK6RAV|Northam|147.275 +0.6|
-|VK6RMH|Mandurah|146.850 -0.6|
-|VK6RBY|Bunbury|146.850 -0.6|
-|---|---|---|
+| Repeater | Area | Frequency |
+| --- | --- | --- |
+| VK6RLM | Perth | 146.750 -0.6 |
+| VK6RAV | Northam | 147.275 +0.6 |
+| VK6RMH | Mandurah | 146.850 -0.6 |
+| VK6RBY | Bunbury | 146.650 -0.6 |
 
 Please check in and let us know where our signal is reaching.
 
@@ -77,6 +75,8 @@ Associate members of WICEN WA are operators who would like to participate in WIC
 - Attendance at training sessions
 
 ## Get Started
+
+Not sure where you stand? Take the **[Capability Self-Assessment](/self-assessment)** to get a personalised readiness tier and suggested next steps.
 
 Ready to join? **[Contact us](/contact)** to learn more about membership, training schedules, and how you can make a difference in your community.
 
