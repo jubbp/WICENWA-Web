@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "WICEN WA will support Dimetia Walk 2026"
+title: "WICEN WA will support Dementia Walk 2026"
 date: 2026-06-21
 author: WICEN WA
 tags: [events, community, volunteers, future]
 ---
 
-WICEN WA will support the Dimetia Walk in Perth again this year.
+WICEN WA will support the Dementia Walk in Perth again this year.
 
 The walk will be held on the 21st June 2026, starting at at Burswood Park.
 
