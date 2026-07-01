@@ -3,7 +3,7 @@ layout: post
 title: "WICEN WA will support Dementia Walk 2026"
 date: 2026-06-21
 author: WICEN WA
-tags: [events, community, volunteers, future]
+tags: [events, community, volunteers]
 ---
 
 WICEN WA will support the Dementia Walk in Perth again this year.
