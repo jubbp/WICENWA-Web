@@ -6,8 +6,6 @@ author: WICEN WA
 tags: [events, community, volunteers, news]
 ---
 
-# WICEN WA Training Activation: Herrison Island POTA Day
-
 On Sunday, 12 July 2026, members of WICEN WA headed out to Herrison Island in the Swan River, Perth, for a training activation combining emergency communications practice with some POTA (Parks on the Air) fun.
 
 Club members Bob VK6KW, Mark VK6XLZ, Phil VK6DEV and Beau VK6BJR were joined by five other Western Australian amateurs to set up two HF POTA stations for the day. Meanwhile, Mack VK6KN brought along his portable VHF/UHF POTA setup, drawing plenty of attention with an impressive 2m amplifier.
