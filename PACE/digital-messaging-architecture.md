@@ -2,8 +2,19 @@
 layout: default
 title: Digital Messaging Architecture
 pace_nav: true
-PaceNavTitle: 11. Digital Messaging
+PaceNavTitle: 13. Digital Messaging
 ---
+
+This is the **Long-Haul Message Traffic** domain — see the [Domain Summary](./domain-summary) for how it relates to the other domains in the plan. This domain covers structured, state/regional-scale message traffic over HF; it is separate from Strategic Coordination's day-to-day operational traffic and from Local/Tactical's team-level field comms.
+
+## Long-Haul Message Traffic PACE
+
+| Level | System | Use |
+|------|------|------|
+| PRIMARY | Winlink (HF) | Structured, email-style messaging with forms and attachments |
+| ALTERNATE | JS8Call (HF) | Weak-signal, store-and-forward messaging |
+| CONTINGENCY | *Not yet defined* | |
+| EMERGENCY | *Not yet defined* | |
 
 Digital messaging provides resilient, structured communications during
 emergency operations.
@@ -36,7 +47,6 @@ Field Radio Stations
 
 # System Roles
 
-```markdown
 ## Station Roles
 
 Three station types are used.
@@ -304,7 +314,6 @@ Battery power
 
 # Training Requirements
 
-```markdown
 ## Operator Training
 
 Operators using digital messaging should be trained in:

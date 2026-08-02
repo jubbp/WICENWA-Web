@@ -2,7 +2,7 @@
 layout: default
 title: Message Handling
 pace_nav: true
-PaceNavTitle: 04. Message Handling
+PaceNavTitle: 06. Message Handling
 ---
 
 All formal messages should follow a standard format.

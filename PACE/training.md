@@ -2,7 +2,7 @@
 layout: default
 title: Training and Exercises
 pace_nav: true
-PaceNavTitle: 07. Training
+PaceNavTitle: 09. Training
 ---
 
 ## Training and Exercises

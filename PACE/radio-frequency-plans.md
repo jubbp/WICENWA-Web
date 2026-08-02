@@ -2,7 +2,7 @@
 layout: default
 title: Radio Network Structure
 pace_nav: true
-PaceNavTitle: 03. Radio Frequencies
+PaceNavTitle: 05. Radio Frequencies
 ---
 
 ## Radio Network Structure 

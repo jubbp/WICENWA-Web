@@ -2,8 +2,10 @@
 layout: default
 title: Operational Communications Plan
 pace_nav: true
-PaceNavTitle: 02. Operational Comms
+PaceNavTitle: 04. Operational Comms
 ---
+
+This is the **Strategic Coordination** domain — see the [Domain Summary](./domain-summary) for how it relates to Activation, Long-Haul Message Traffic, Local/Tactical, and Cross-State Coordination.
 
 Once activated, communications must support:
 

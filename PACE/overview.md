@@ -20,10 +20,11 @@ Alternate
 Contingency  
 Emergency  
 
-Each layer assumes the previous layer has failed.
+Each layer assumes the previous layer has failed — **with one exception**: within the Local/Tactical Field Comms domain, the Alternate tier (MeshCore) is run in parallel with Primary as standard practice, not held in reserve. See the [Domain Summary](./domain-summary) for why this plan is organised into domains rather than one universal ladder, and for that exception in full.
 
 This document covers:
 
+- [Domain Summary](./domain-summary)
 - [Activation procedures](./activation)
 - [Operational communications](./operational)
 - [Radio frequency plans](./radio-frequency-plans)

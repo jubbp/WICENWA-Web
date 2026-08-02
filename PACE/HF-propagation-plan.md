@@ -2,7 +2,7 @@
 layout: default
 title: HF Frequency Plan
 pace_nav: true
-PaceNavTitle: 08. HF Propagation
+PaceNavTitle: 10. HF Propagation
 ---
 
 This frequency plan is designed to provide reliable HF communications
@@ -106,9 +106,8 @@ When communicating with eastern states groups,
 
 # Digital Messaging Frequencies
 
-These are ideal for structured messages using systems like **:contentReference[oaicite:3]{index=3}**.
+These are ideal for structured messages using systems like **Winlink** and **JS8Call**.
 
-```markdown
 ## Digital Messaging Frequencies
 
 | Band | Frequency | Mode | Use |

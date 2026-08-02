@@ -2,7 +2,7 @@
 layout: default
 title: Incident Information Distribution
 pace_nav: true
-PaceNavTitle: 05. Incident Information
+PaceNavTitle: 07. Incident Information
 ---
 
 A single online location must provide the latest operational information.

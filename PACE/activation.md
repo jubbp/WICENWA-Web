@@ -2,8 +2,10 @@
 layout: default
 title: Activation Plan
 pace_nav: true
-PaceNavTitle: 02. Activation
+PaceNavTitle: 03. Activation
 ---
+
+This is the **Activation & Alerting** domain — see the [Domain Summary](./domain-summary) for how it relates to the other domains in the plan.
 
 This section defines how members are alerted and mobilised during an incident.
 
