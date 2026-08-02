@@ -36,3 +36,4 @@ This document covers:
 - [Deployment Model](./deployment-model)
 - [Activation Flowchart](./activation-flowchart)
 - [Digital Messaging Architecture](./digital-messaging-architecture)
+- [Committee Discussion — Aims & Priorities](./committee-discussion)

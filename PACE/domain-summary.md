@@ -66,6 +66,8 @@ A few cells in the table above are marked *Not yet defined* — these are genuin
 
 These need to be resolved as part of finishing the draft, not assumed.
 
+Several of these gaps can't actually be closed until the committee has settled the organisation's aims and priorities — see [Committee Discussion — Aims & Priorities](./committee-discussion).
+
 ## References
 
 This restructure draws on published methodology and comparable organisations' plans, for context rather than as WICEN-WA policy:
