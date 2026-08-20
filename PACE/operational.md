@@ -53,7 +53,7 @@ logistics
 Equipment and resource requests
 
 sitrep  
-Situation reports
+Situation reports — see [Message Handling](./message-handling)'s SITREP cycle
 
 ## Station Modes
 
@@ -67,9 +67,9 @@ Allocate stations to specific tasks
     - APRS messaging station
     - Tactical APRS Callsign?
 - Voice Net Controller VHF/UHF
-    
+    - Runs net discipline and logs every check-in in real time — see [Message Handling](./message-handling)'s Net Control Logging section
 - Voice Net Controller HF
-    
+    - Same logging responsibility as VHF/UHF Net Control
 - Voice Relay Station VHF/UHF
     - Multiple Stations monitor Local Repeater(s)
 - Voice Relay Sation HF
