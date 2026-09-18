@@ -131,7 +131,7 @@ A small, sociable club that shows up for community walks and keeps its skills sh
 
 There's no wrong answer here — but there is a wrong process, which is the plan quietly assuming an answer nobody actually agreed to. That's what this paper is trying to avoid.
 
-For anyone who wants the full technical detail behind any of this, the working documents are public on the site: the [PACE Plan Overview](/PACE/overview), the [Domain Summary](/PACE/domain-summary), the fuller [Committee Discussion](/PACE/committee-discussion) this paper is drawn from, and the proposed [Implementation Roadmap](/PACE/implementation-roadmap). None of it is finished, and none of it should be, until this conversation has happened.
+For anyone who wants the full technical detail behind any of this, the working documents are public on the site: the [PACE Plan Overview](/PACE/overview), the [Domain Summary](/PACE/domain-summary), the fuller [Committee Discussion](/PACE/committee-discussion) this paper is drawn from, and the proposed [Implementation Roadmap](/PACE/implementation-roadmap). There's also a first-draft [Mission Statement and Aims](/mission-and-aims), written on a working assumption about how these questions get answered — worth reading with that in mind. None of it is finished, and none of it should be, until this conversation has happened.
 
 ## How to have your say
 
