@@ -12,8 +12,11 @@ sidebar: false
       <a href="/get-involved" class="btn">Get Involved</a>
     </div>
     <div class="hero-image-container">
-      <img src="/assets/Dementia-2025.jpg" alt="WICEN WA at the Dimetia Walk 2025" class="hero-image">
-      <p class="hero-image-caption">WICEN WA at the Dimetia Walk 2025 – Bob VK6KW, Mark, VK6XLZ & Kevin VK6KQ</p>
+      <div class="hero-image-frame">
+        <img src="/assets/images/posts/pota-activation-2026/PXL_20260712_044943822.jpeg" alt="WICEN WA operators during a POTA training activation at Herrison Island" class="hero-image">
+        <span class="hero-image-badge">POTA Training Day</span>
+      </div>
+      <p class="hero-image-caption">WICEN WA members operating on Herrison Island during a POTA training activation.</p>
     </div>
   </div>
 </section>
