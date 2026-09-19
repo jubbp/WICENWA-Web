@@ -12,6 +12,35 @@ Club members Bob VK6KW, Mark VK6XLZ, Phil VK6DEV and Beau VK6BJR were joined by 
 
 The team arrived on site just after midday and had stations calling CQ across the bands by early afternoon. Conditions stayed kind until around 3:30pm, when a drop in temperature signalled the end of a great day out in the park.
 
+## Photo Highlights
+
+<!-- markdownlint-disable MD033 -->
+<div class="post-photo-gallery">
+  <div class="post-photo-grid">
+    <figure class="post-photo-card">
+      <img src="/assets/images/posts/pota-activation-2026/PXL_20260712_044943822.jpeg" alt="WICEN WA members operating under a shelter at Herrison Island" loading="lazy">
+      <figcaption>Operating from the riverside shelter with the Perth skyline behind.</figcaption>
+    </figure>
+    <figure class="post-photo-card">
+      <img src="/assets/images/posts/pota-activation-2026/PXL_20260712_045001142.jpeg" alt="WICEN WA operators setting up near the river at Herrison Island" loading="lazy">
+      <figcaption>Station setup area beside the river, ready for an afternoon of activations.</figcaption>
+    </figure>
+    <figure class="post-photo-card">
+      <img src="/assets/images/posts/pota-activation-2026/PXL_20260712_050938314.jpeg" alt="Operators preparing antenna equipment in the park" loading="lazy">
+      <figcaption>Antenna preparation and troubleshooting in action.</figcaption>
+    </figure>
+    <figure class="post-photo-card">
+      <img src="/assets/images/posts/pota-activation-2026/PXL_20260712_052536931.jpeg" alt="Close-up of portable HF radio operating position" loading="lazy">
+      <figcaption>One of the portable HF operating positions used during training.</figcaption>
+    </figure>
+    <figure class="post-photo-card post-photo-wide">
+      <img src="/assets/images/posts/pota-activation-2026/PXL_20260712_054808208.jpeg" alt="WICEN WA volunteer working with antenna wire and field radio equipment" loading="lazy">
+      <figcaption>Hands-on antenna work was a key part of the day's learning.</figcaption>
+    </figure>
+  </div>
+</div>
+<!-- markdownlint-enable MD033 -->
+
 ## The Results
 
 Phil VK6DEV had a strong day on 40m, logging 23 contacts with stations from all around the state. Mack VK6KN wrapped up with about 13 contacts spread across 2m and 70cm, plus a nice bonus contact on 6m.
@@ -24,8 +53,7 @@ True to the training spirit of the activation, part of the group spent time work
 
 Days like this are a great reminder of why WICEN WA training activations are so valuable — combining real-world HF and VHF/UHF operating experience with the kind of problem-solving and troubleshooting that matters when it counts. Thanks to everyone who came along and made it a successful (and social) day on Herrison Island.
 
-*73 from WICEN WA*
-
+73 from WICEN WA
 
 ## Join Us
 
