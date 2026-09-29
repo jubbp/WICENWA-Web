@@ -24,7 +24,7 @@ Members may join operations at any time, therefore communications systems must s
 | PRIMARY | Internet Collaboration Platform | Incident coordination |
 | ALTERNATE | Amateur Radio Voice Nets | Operational communications |
 | CONTINGENCY | Amateur Radio Digital Messaging | Structured message passing |
-| EMERGENCY | Voice Relay Network | Station-to-station relay |
+| EMERGENCY | Voice Relay Network | Station-to-station relay — see [Voice Procedure](./voice-procedure)'s Relay section |
 
 ## Internet Collaboration
 
@@ -71,6 +71,7 @@ Allocate stations to specific tasks
 - Voice Net Controller HF
     - Same logging responsibility as VHF/UHF Net Control
 - Voice Relay Station VHF/UHF
+    - Relays using RELAY TO / THROUGH ME, and reports delivery back — see [Voice Procedure](./voice-procedure)
     - Multiple Stations monitor Local Repeater(s)
 - Voice Relay Sation HF
     - Multiple Stations monitoring HF Net stations

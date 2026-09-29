@@ -1668,3 +1668,221 @@ tbody tr:hover {
 .hero-container > * {
   min-width: 0;
 }
+
+/* ── Exercise Field Guide (printable) ────────────────── */
+.field-guide {
+  border: 1px solid var(--line-strong);
+  border-top: 6px solid var(--accent);
+  background: var(--surface);
+  padding: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.field-guide h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 1.15rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.field-guide table {
+  margin: 0.5rem 0 0.75rem;
+  font-size: 0.9rem;
+}
+
+.field-guide th,
+.field-guide td {
+  padding: 0.4rem 0.65rem;
+  vertical-align: top;
+}
+
+.field-guide tbody th {
+  width: 32%;
+  background: var(--surface-2);
+  color: var(--heading);
+  font-weight: 700;
+}
+
+.field-guide-print-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+}
+
+.field-guide-print-bar .btn {
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+}
+
+.fg-head {
+  border-bottom: 2px solid var(--line-strong);
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.fg-title {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  color: var(--heading);
+}
+
+.fg-sub {
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+.fg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.fg-box h3 {
+  margin-top: 1rem;
+}
+
+.fg-alert h3 {
+  color: var(--danger);
+}
+
+.fg-alert table {
+  border-left: 4px solid var(--danger);
+}
+
+.fg-script {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.88rem;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  padding: 0.6rem 0.8rem;
+  line-height: 1.5;
+}
+
+.fg-note {
+  font-size: 0.88rem;
+}
+
+.field-guide ol,
+.field-guide ul {
+  margin-left: 1.25rem;
+  font-size: 0.9rem;
+}
+
+.field-guide li {
+  margin-bottom: 0.2rem;
+}
+
+/* ── Print ───────────────────────────────────────────── */
+@media print {
+  :root,
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #f0f0f0;
+    --line: #bbbbbb;
+    --line-strong: #888888;
+    --text: #111111;
+    --heading: #000000;
+    --muted: #444444;
+    --link: #000000;
+    --danger: #b3261e;
+  }
+
+  body {
+    background: #fff;
+    color: #111;
+    font-size: 10.5pt;
+  }
+
+  .site-header,
+  .site-footer,
+  .sidebar,
+  .pace-nav,
+  .field-guide-print-bar,
+  .theme-toggle {
+    display: none !important;
+  }
+
+  .page-layout,
+  .pace-layout {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  li::marker {
+    color: #000 !important;
+  }
+
+  thead tr {
+    background: #e8e8e8 !important;
+    color: #000 !important;
+  }
+
+  table {
+    display: table;
+    page-break-inside: avoid;
+  }
+
+  tbody tr:nth-child(odd),
+  tbody tr:nth-child(even) {
+    background: #fff;
+  }
+
+  /* "Print field guide" button: print only the guide */
+  body.print-field-guide .page-content > *:not(.field-guide) {
+    display: none !important;
+  }
+
+  body.print-field-guide .field-guide {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  }
+
+  .field-guide h3 {
+    font-size: 12pt;
+    margin: 0.6rem 0 0.25rem;
+    page-break-after: avoid;
+  }
+
+  .fg-title {
+    font-size: 18pt;
+  }
+
+  .fg-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+  }
+
+  .fg-box {
+    page-break-inside: avoid;
+  }
+}
+
+.field-guide .fg-prowords tbody th {
+  width: auto;
+  white-space: nowrap;
+}

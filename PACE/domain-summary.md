@@ -31,6 +31,8 @@ Local/Tactical Field Comms doctrine (node roles, standing orders, use cases) is 
 
 **Cross-cutting — not a ladder:** *Situational Awareness* (APRS position/message beacons, and adverts from whichever local mesh system is chosen) runs alongside whichever tier of whichever domain is currently active, rather than sitting in any one domain's ladder.
 
+**Cross-cutting — voice procedure:** every voice tier in every domain above — the HF alert net, voice nets, the voice relay network, field VHF/UHF and HF, and interstate HF liaison — uses the same [Voice Procedure (RATEL)](./voice-procedure). The ladders say which system to use; that page says how to talk on it.
+
 ## Permanent infrastructure vs portable capability
 
 The table above describes *what* each tier uses, not *whether it's already there or has to be brought in*. Every technology named above can exist as either **standing infrastructure**, in place all the time regardless of activation, or **portable kit**, carried to wherever a deployment needs it — and those two forms have completely different cost and maintenance profiles.

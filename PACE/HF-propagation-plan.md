@@ -134,14 +134,18 @@ Additional tactical nets may operate continuously.
 
 If interference or poor propagation occurs:
 
-1. Net Control announces frequency change
+1. Net Control orders the change: CHANGE TO (frequency)
 2. All stations acknowledge
-3. Net moves to alternate frequency
+3. Net Control gives the separate command: CHANGE NOW
+4. Only then does the net move — nobody changes on the order alone
 
 Example:
 
-"All stations, move to alternate frequency
-7.090 MHz in five minutes."
+"ALL STATIONS, THIS IS (NCS), CHANGE TO 7.090, OVER."
+(each station acknowledges)
+"CHANGE NOW, OUT."
+
+This follows WICEN's RATEL procedure — see [Voice Procedure](./voice-procedure).
 
 ## Quick Band Selection Guide
 

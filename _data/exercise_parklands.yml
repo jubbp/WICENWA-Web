@@ -1,0 +1,104 @@
+# Exercise PARKLANDS: the single place for event details.
+#
+# Both the plan (PACE/exercise-2-parklands.md) and its printable Field Guide
+# section read from this file, so fill a detail in once here and it appears in
+# both. Anything still in [SQUARE BRACKETS] is not decided yet.
+#
+# PRIVACY: this file holds names and mobile numbers. Keep the plan page
+# unpublished (published: false) and print the Field Guide from a local build
+# (bundle exec jekyll serve --unpublished) rather than from the live site.
+
+name: PARKLANDS
+date: "[SATURDAY DATE]"
+start: "0800"
+end: "1300"
+return_by: "1200"          # every team back at the ICP by this time
+park: "[PARK NAME]"
+icp: "[ICP LOCATION, e.g. main car park]"
+icp_position: "[GPS / GRID REFERENCE OF THE ICP]"
+checkin_minutes: 15
+
+contacts:
+  - role: Exercise Director / Safety Officer
+    name: "[NAME]"
+    callsign: "[CALLSIGN]"
+    mobile: "[MOBILE]"
+  - role: Exercise Control (EXCON)
+    name: "[NAME]"
+    callsign: "[CALLSIGN]"
+    mobile: "[MOBILE]"
+  - role: Communications Unit Leader
+    name: "[NAME]"
+    callsign: "[CALLSIGN]"
+    mobile: "[MOBILE]"
+  - role: Net Control (ICP)
+    name: "[NAME]"
+    callsign: "[CALLSIGN]"
+    mobile: "[MOBILE]"
+  - role: State Net Control (home station)
+    name: "[NAME]"
+    callsign: "[CALLSIGN]"
+    mobile: "[MOBILE]"
+
+emergency:
+  call: "000 — use the Safety Officer's phone, or your own"
+  app: "Emergency+ app shows your location to read out to 000"
+  hospital: "[NEAREST HOSPITAL WITH EMERGENCY DEPARTMENT, ADDRESS]"
+  land_manager: "[PARK RANGER / LAND MANAGER, PHONE]"
+  first_aid: "[WHERE THE FIRST-AID KIT IS, e.g. ICP table]"
+
+# Local/Tactical Field Comms ladder for the day
+channels:
+  - tier: Primary
+    system: VHF voice, simplex
+    detail: "[FIELD SIMPLEX FREQUENCY]"
+  - tier: Primary (backup path)
+    system: VHF voice, repeater
+    detail: "[REPEATER, e.g. VK6RLM 146.750 −0.6]"
+  - tier: Alternate (runs all the time, in parallel with voice)
+    system: Mesh messaging
+    detail: "[MESH SYSTEM / CHANNEL NAME]"
+  - tier: Contingency
+    system: HF voice, tactical
+    detail: "7.130 MHz LSB"
+  - tier: Emergency
+    system: Runner, face to face
+    detail: "Written message in the standard format, carried to the ICP"
+  - tier: Link to State Net Control
+    system: HF voice
+    detail: "7.110 MHz LSB"
+  - tier: Situational awareness
+    system: APRS position beacons
+    detail: "145.175 MHz [CHECK]"
+
+# Starter triggers for moving down the ladder. The exercise tests these;
+# the debrief revises them.
+triggers:
+  - from: "Voice → mesh"
+    when: "3 unanswered calls to or from Net Control over 2 minutes"
+    action: "Send the traffic by mesh. Keep trying voice at each check-in."
+  - from: "Mesh → HF"
+    when: "No mesh acknowledgement within 5 minutes, and you can't move to better coverage"
+    action: "Call the ICP on HF 7.130 MHz LSB (if your team has HF)."
+  - from: "HF → runner"
+    when: "No HF contact after 2 attempts, 5 minutes apart, or no HF with the team"
+    action: "Write the message in the standard format; one member walks it to the ICP. Never split up without telling the ICP where you're going."
+  - from: "Missed check-in (Net Control)"
+    when: "A team misses 2 check-ins in a row on every tier"
+    action: "Net Control tells the Safety Officer straight away."
+
+lost_comms: >-
+  If you lose contact on every tier: stay together, and move towards the ICP or
+  the nearest known good-coverage spot. If you still have no contact
+  15 minutes after your missed check-in, return to the ICP.
+
+teams:
+  - team: Team 1
+    sector: "[SECTOR]"
+    members: "[NAME, CALLSIGN] / [NAME]"
+  - team: Team 2
+    sector: "[SECTOR]"
+    members: "[NAME, CALLSIGN] / [NAME]"
+  - team: Team 3
+    sector: "[SECTOR]"
+    members: "[NAME, CALLSIGN] / [NAME]"

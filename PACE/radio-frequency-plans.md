@@ -24,6 +24,8 @@ Net Control Stations are responsible for:
 - Prioritising traffic
 - Passing messages to incident command
 
+Net procedure — directed and free nets, REPORTING INTO NET, handing over with ASSUME CONTROL, frequency changes — is on [Voice Procedure](./voice-procedure).
+
 # WICENWA Frequency Plan
 
 This plan provides recommended frequencies for statewide and regional communications.

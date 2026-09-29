@@ -29,6 +29,7 @@ This document covers:
 - [Operational communications](./operational)
 - [Radio frequency plans](./radio-frequency-plans)
 - [Message handling](./message-handling)
+- [Voice procedure (RATEL)](./voice-procedure)
 - [Incident information distribution](./incident-information-handling)
 - [Cross-state coordination](./cross-state-coordination)
 - [Training](./training)

@@ -67,6 +67,10 @@ close them out.
 - [ ] **§10 Permanent vs. portable infrastructure** — is permanent AREDN siting
       worth pursuing now? Who's accountable for a permanent node's uptime? Define
       the standard field go-kit now, independent of the permanent-siting question.
+- [ ] **§11 Voice procedure & precedence** — formally adopt the adapted RATEL
+      [Voice Procedure](PACE/voice-procedure.md)? Switch precedence EMERGENCY →
+      IMMEDIATE (and update the exercise Field Guide if so)? Adopt RATEL's formal
+      message form? Confirm abbreviated procedure against the ACMA ID rule.
 
 Once §1 and §3 in particular are answered, revisit and rewrite
 [mission-and-aims.md](mission-and-aims.md) and [PACE/implementation-roadmap.md](PACE/implementation-roadmap.md)

@@ -192,6 +192,15 @@ Questions:
 - Who is accountable for a permanent node's uptime once it exists — an individual member, a formal WICEN role, or is that exactly the kind of standing commitment a rebuilding-phase organisation should avoid taking on?
 - Should the standard field go-kit be defined now (which portable technologies, in what combination) even before the permanent-infrastructure questions above are settled, since portable capability doesn't depend on what's permanently sited?
 
+### 11. Voice procedure and message precedence
+
+WICEN WA's archived *Radiotelephone (RATEL) Procedure for Operators in WICEN* (about 2002) has been adapted as the plan's [Voice Procedure](./voice-procedure) page. It fills a real gap — the plan said which system to use at each tier but not how to talk on it, including how the voice relay network actually works.
+
+- Should WICEN WA formally adopt the adapted RATEL procedure as its standard voice procedure, and make it the baseline for operator training?
+- Should message precedence change from ROUTINE / PRIORITY / EMERGENCY to RATEL's ROUTINE / PRIORITY / **IMMEDIATE**? "EMERGENCY" collides with the PACE *Emergency* tier on a live net (see [Message Handling](./message-handling)). If adopted, where does welfare traffic (§6) sit — explicitly at the bottom of ROUTINE?
+- Should the plan adopt RATEL's fuller formal message — IN/OUT serial numbers, date-time group, operator R/D blocks — as the standard message form?
+- How does RATEL's abbreviated procedure (dropping call signs after the first exchange) sit with the ACMA call-sign identification rule? Needs a clear answer that operators can apply on air.
+
 ## Government & regulatory references
 
 These are official Australian government and regulatory documents with a genuine crossover with WICEN WA's plans and principles — cited inline above, and gathered here as one list. They're context for the committee's decisions, not something this plan can unilaterally adopt as policy; several (the SEMC framework in particular) would require WICEN WA to actively seek inclusion, not just cite.
