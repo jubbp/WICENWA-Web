@@ -35,13 +35,13 @@ Please check in and let us know where our signal is reaching.
 
 WICENWA has a google group for discussion and distribution of information with anyone interested in WICEN and our activities.
 
-Head over to [groups.google.com](https://groups.google.com/g/wicenwa), log into your google account and and join our group.
+Head over to [groups.google.com](https://groups.google.com/g/wicenwa), log into your google account and join our group.
 
 ---
 
 ## Join our Facebook group
 
-If you prefer interacting on Facebook, head over to our group page and join up.
+If you prefer interacting on Facebook, head over to our group page and join up. [WICEN Facebook Group](https://www.facebook.com/share/g/1FU5hWoLKr/)
 
 ---
 
@@ -74,10 +74,17 @@ Associate members of WICEN WA are operators who would like to participate in WIC
 - Commitment to volunteer service
 - Attendance at training sessions
 
+
+
 ## Get Started
+
+Ready to join? 
+
+Download the [Application Form](/assets/Membership%20Application-Fillable.pdf) 
+
+or use the **[Contact us](/contact)** to learn more about membership, training schedules, and how you can make a difference in your community.
 
 Not sure where you stand? Take the **[Capability Self-Assessment](/self-assessment)** to get a personalised readiness tier and suggested next steps.
 
-Ready to join? **[Contact us](/contact)** to learn more about membership, training schedules, and how you can make a difference in your community.
 
 ---
