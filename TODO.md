@@ -11,11 +11,11 @@ genuinely done rather than leaving them checked forever.
       `_includes/sidebar.html`) — right now neither is referenced from `index.md`,
       `_includes/header.html`, `_includes/footer.html`, or `_includes/sidebar.html`,
       so a member has to already know the URL.
-- [ ] Reconcile the live-site URL in [README.md](README.md) (`jubbp.github.io/WICENWA-Web`)
-      with the custom domain in [CNAME](CNAME) — confirm which is current and fix
-      whichever is stale.
-- [ ] Commit or discard the pending edits to `PACE/committee-discussion.md` and
-      `discussion-paper.md` (currently modified but uncommitted).
+- [ ] Click through every page in both dark and light mode after the poster-style
+      redesign — only Home, News, the PACE overview and the sidebar were checked.
+- [ ] Check with the WIA that the recoloured dark-mode affiliation logo
+      (`assets/WIA_Affiliated_Club_Logo_dark.png`) is acceptable, or get an official
+      version for dark backgrounds.
 
 ## PACE Plan — documentation gaps (no committee decision needed, can start anytime)
 
@@ -31,10 +31,6 @@ documentation work, doesn't wait on any Aims decision:
 - [ ] Inventory standing infrastructure WICEN WA already has informal access to —
       South West WA's APRS digipeater network and the expanding MeshCore coverage
       area — and turn it into a documented asset register ([Committee Discussion §10](PACE/committee-discussion.md)).
-- [ ] Add a documented net-logging practice for Net Control — currently no
-      logging responsibility was written down anywhere before this review
-      ([Committee Discussion §9](PACE/committee-discussion.md)); flagged as the
-      cheapest, no-dependency fix in [mission-and-aims.md](mission-and-aims.md) Aim 6.
 
 ## Committee & membership decisions needed
 

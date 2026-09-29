@@ -76,17 +76,23 @@ Your content here...
 
 ## Deployment
 
-The site automatically deploys to GitHub Pages when you push to the `main` branch.
-
-See [DEPLOY.md](DEPLOY.md) for detailed deployment instructions.
+The live site at https://wicenwa.org is published by GitHub Pages' built-in
+"pages build and deploy" job whenever `main` is pushed — usually live within a
+minute or two. The custom domain is set by [CNAME](CNAME).
 
 ### GitHub Actions
 
-The workflow (`.github/workflows/build.yml`) will:
-- ✅ Build the Jekyll site
-- ✅ Check for broken links
-- ✅ Deploy to GitHub Pages
-- ✅ Display build status
+The workflow (`.github/workflows/build.yml`) runs on pushes and pull requests to
+`main`. It does **not** deploy; it only:
+- ✅ Builds the Jekyll site, so build errors show up in the **Actions** tab
+- ✅ Checks for broken internal links (HTML Proofer, non-blocking)
+
+### Caching
+
+GitHub Pages lets browsers cache assets for 10 minutes. The stylesheet link in
+`_layouts/default.html` carries a build-time version (`style.css?v=...`) so style
+changes show up immediately after a deploy — give any new site-wide CSS or JS
+file the same `?v={{ site.time | date: '%s' }}` suffix.
 
 ## Site Configuration
 
@@ -98,10 +104,14 @@ Edit `_config.yml` to update:
 
 ## Styling
 
-- Main CSS: `assets/style.css`
-- Color scheme: Gold (#FDB913) and dark gray
-- Responsive design for mobile and desktop
-- Hamburger menu on mobile (< 768px)
+- Main CSS: `assets/style.css`, styled after the WICEN WA awareness poster:
+  near-black ground, cream text, WICEN yellow (#FFD22E), Anton headings over
+  Archivo body text (Google Fonts)
+- Dark mode by default; the sun/moon toggle in the header switches to light mode
+  and remembers the visitor's choice. Colours are CSS variables at the top of
+  `style.css` — `:root` is dark, `:root[data-theme="light"]` is light — so use the
+  variables rather than hard-coded colours in pages
+- Responsive design for mobile and desktop; hamburger menu on mobile (< 768px)
 
 ## Technologies
 
@@ -109,7 +119,7 @@ Edit `_config.yml` to update:
 - **Ruby** - Programming language
 - **Markdown** - Content format
 - **GitHub Pages** - Hosting & deployment
-- **GitHub Actions** - CI/CD automation
+- **GitHub Actions** - Build and link checks
 
 ## Contributing
 
@@ -132,6 +142,6 @@ All content © WICEN WA. All rights reserved.
 
 ---
 
-**Live Site:** https://jubbp.github.io/WICENWA-Web/
+**Live Site:** https://wicenwa.org/
 
 **Repository:** https://github.com/jubbp/WICENWA-Web
