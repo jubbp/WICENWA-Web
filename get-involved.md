@@ -14,7 +14,7 @@ WICEN-WA holds a net every week starting at 20:00 hours local. The net runs conc
 
 ### Frequency
 
-3.600 Mhz LSB +- QRM
+3.610 Mhz LSB +- QRM
 
 Our net is also available ont he WA Allstar linked repeater network. You can access the net on one of the many repeaters and directly by connecting to the allstar network. Below are a few of the options available.
 
