@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }} - {{ site.subtitle }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description }}">
+  <script>
+    // Apply the saved theme before first paint; dark is the default.
+    try {
+      if (localStorage.getItem('theme') === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    } catch (e) {}
+  </script>
+  <meta name="theme-color" content="#151515">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700&display=swap">
   <link rel="stylesheet" href="/assets/style.css">
   {% if site.google_analytics %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -21,7 +33,9 @@
   {% include header.html %}
   
   <main role="main">
-    {% if page.pace_nav %}
+    {% if page.full_width %}
+      {{ content }}
+    {% elsif page.pace_nav %}
       <div class="pace-layout">
         {% include pace-nav.html %}
         <div class="page-content">

@@ -9,7 +9,7 @@ sidebar: false
   max-width: 800px;
   margin: 0 auto 2rem;
   padding: 1.25rem 1.5rem;
-  background: #f9f9f9;
+  background: var(--surface);
   border-left: 4px solid var(--primary-yellow);
   border-radius: 0 4px 4px 0;
 }
@@ -32,18 +32,18 @@ sidebar: false
 .assess-item {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--line);
 }
 .assess-item:last-child { border-bottom: none; }
 .assess-item p.question { font-weight: 600; margin-bottom: 0.25rem; }
 .assess-item .hint {
   font-size: 0.88rem;
-  color: #666;
+  color: var(--muted);
   margin-bottom: 0.65rem;
 }
 .multi-label {
   font-size: 0.8rem;
-  color: #888;
+  color: var(--muted);
   font-style: italic;
   margin-bottom: 0.5rem;
 }
@@ -59,7 +59,7 @@ sidebar: false
   transition: background 0.15s;
   font-size: 0.95rem;
 }
-.option-group label:hover { background: #f0f0f0; }
+.option-group label:hover { background: var(--surface-2); }
 .option-group input { margin-top: 3px; flex-shrink: 0; }
 
 .assess-actions {
@@ -90,7 +90,8 @@ sidebar: false
   border-radius: 6px;
   margin-bottom: 1.5rem;
 }
-.result-banner h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.result-banner h2 { font-size: 1.5rem; margin-bottom: 0.5rem; color: inherit; }
+.result-banner strong { color: inherit; }
 .result-banner p { max-width: 620px; margin: 0 auto; }
 
 .area-scores {
@@ -104,13 +105,13 @@ sidebar: false
 .area-card {
   padding: 0.85rem 1rem;
   border-radius: 4px;
-  background: #f9f9f9;
+  background: var(--surface);
   border-left: 4px solid var(--primary-yellow);
 }
 .area-card .area-name { font-weight: 700; font-size: 0.9rem; margin-bottom: 0.2rem; }
-.area-card .area-bar-wrap { background: #ddd; border-radius: 3px; height: 8px; margin: 0.35rem 0; }
+.area-card .area-bar-wrap { background: var(--surface-2); border-radius: 3px; height: 8px; margin: 0.35rem 0; }
 .area-card .area-bar { background: var(--primary-yellow); height: 8px; border-radius: 3px; transition: width 0.4s; }
-.area-card .area-fraction { font-size: 0.8rem; color: #666; }
+.area-card .area-fraction { font-size: 0.8rem; color: var(--muted); }
 
 .roles-grid {
   display: grid;
@@ -124,14 +125,14 @@ sidebar: false
   padding: 0.9rem 1.1rem;
   border-radius: 4px;
   border-left: 4px solid #28a745;
-  background: #f9f9f9;
+  background: var(--surface);
 }
 .role-card .role-title { font-weight: 700; margin-bottom: 0.25rem; font-size: 0.95rem; }
-.role-card .role-desc { font-size: 0.85rem; color: #555; }
+.role-card .role-desc { font-size: 0.85rem; color: var(--muted); }
 
 .flag-block {
   padding: 1rem 1.25rem;
-  background: #fff3cd;
+  background: var(--warn-bg);
   border-left: 4px solid #ffc107;
   border-radius: 4px;
   margin-bottom: 0.75rem;
@@ -141,7 +142,7 @@ sidebar: false
 
 .report-section {
   margin-bottom: 1.5rem;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--line-strong);
   border-radius: 6px;
   overflow: hidden;
 }
@@ -149,8 +150,8 @@ sidebar: false
   padding: 0.75rem 1.1rem;
   font-weight: 700;
   font-size: 0.95rem;
-  background: #1a1a1a;
-  color: #fff;
+  background: var(--surface-2);
+  color: var(--heading);
 }
 .report-section-body { padding: 1rem 1.25rem; }
 .report-section-body ul { padding-left: 1.2rem; margin: 0; }
@@ -160,12 +161,12 @@ sidebar: false
 .resource-list { list-style: none; padding: 0; margin: 0; }
 .resource-list li {
   padding: 0.5rem 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--line);
   font-size: 0.92rem;
 }
 .resource-list li:last-child { border-bottom: none; }
 .resource-list .res-title { font-weight: 600; }
-.resource-list .res-desc { color: #666; font-size: 0.85rem; }
+.resource-list .res-desc { color: var(--muted); font-size: 0.85rem; }
 
 .section-heading {
   font-size: 1.05rem;
@@ -179,7 +180,7 @@ sidebar: false
   max-width: 800px;
   margin: 0 auto 2rem;
   font-size: 0.82rem;
-  color: #999;
+  color: var(--muted);
   text-align: center;
 }
 </style>
@@ -653,16 +654,16 @@ function renderResult(scores) {
   var summaryText, summaryBg;
   if (overallPct >= 0.75) {
     summaryText = "You have strong all-round capability and are well placed for active field deployment with WICEN WA.";
-    summaryBg = "background:#d4edda; border:2px solid #28a745;";
+    summaryBg = "background:#d4edda; border:2px solid #28a745; color:#151515;";
   } else if (overallPct >= 0.5) {
     summaryText = "You have solid foundations. A few targeted steps will bring you to full deployment readiness.";
-    summaryBg = "background:#cce5ff; border:2px solid #004085;";
+    summaryBg = "background:#cce5ff; border:2px solid #004085; color:#151515;";
   } else if (overallPct >= 0.25) {
     summaryText = "You are beginning your WICEN journey. There are roles suited to you now and a clear path to more.";
-    summaryBg = "background:#fff3cd; border:2px solid #ffc107;";
+    summaryBg = "background:#fff3cd; border:2px solid #ffc107; color:#151515;";
   } else {
     summaryText = "Now is a great time to start building toward WICEN involvement. Support roles are available to you today.";
-    summaryBg = "background:#f0f0f0; border:2px solid #aaa;";
+    summaryBg = "background:#f0f0f0; border:2px solid #aaa; color:#151515;";
   }
 
   var html = '<div class="result-banner" style="' + summaryBg + '">' +

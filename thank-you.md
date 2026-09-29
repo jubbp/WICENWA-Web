@@ -21,7 +21,7 @@ sidebar: false
 }
 .thankyou-wrap p {
   font-size: 1.05rem;
-  color: #555;
+  color: var(--muted);
   margin-bottom: 2rem;
 }
 .community-links {
@@ -38,8 +38,8 @@ sidebar: false
   gap: 0.5rem;
   padding: 1.5rem 2rem;
   border-radius: 6px;
-  background: #f9f9f9;
-  border: 2px solid #e0e0e0;
+  background: var(--surface);
+  border: 2px solid var(--line-strong);
   text-decoration: none;
   color: var(--text-color);
   transition: border-color 0.15s, box-shadow 0.15s;
@@ -52,8 +52,8 @@ sidebar: false
 }
 .community-card .card-icon { font-size: 2rem; }
 .community-card .card-title { font-weight: 700; font-size: 1rem; }
-.community-card .card-desc { font-size: 0.85rem; color: #666; text-align: center; }
-.back-link { font-size: 0.9rem; color: #888; }
+.community-card .card-desc { font-size: 0.85rem; color: var(--muted); text-align: center; }
+.back-link { font-size: 0.9rem; color: var(--muted); }
 .back-link a { color: var(--link-color); }
 </style>
 
