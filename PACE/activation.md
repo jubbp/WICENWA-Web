@@ -9,6 +9,8 @@ This is the **Activation & Alerting** domain — see the [Domain Summary](./doma
 
 This section defines how members are alerted and mobilised during an incident.
 
+Planned events don't use activation — they follow the [Event Support](./event-support) engagement lifecycle.
+
 Activation may occur due to:
 
 - Natural disasters
@@ -20,9 +22,11 @@ Activation may occur due to:
 
 Activation may be initiated by:
 
+How a supported agency requests WICEN is not yet defined {% include gap.html id="GAP-018" %}.
+
 - WICEN-WA State Coordinator
 - Deputy Coordinator
-- Designated Incident Controller
+- Designated Incident Controller {% include gap.html id="GAP-020" %}
 
 ## Activation PACE
 
@@ -30,10 +34,12 @@ Triggers for stepping between tiers are not yet defined {% include gap.html id="
 
 | Level | Method | Description |
 |------|------|-------------|
-| PRIMARY | Internet Messaging | WICEN-WA App / Signal / Discord {% include gap.html id="GAP-005" %} |
+| PRIMARY | Internet Messaging | WICEN-WA App / Signal / Discord {% include gap.html id="GAP-005" %} {% include gap.html id="GAP-044" %} |
 | ALTERNATE | Email Distribution | WICEN-WA email group |
 | CONTINGENCY | SMS Broadcast | Bulk SMS alert |
 | EMERGENCY | Amateur Radio Alert Net | HF activation frequency |
+
+Alerts are not yet sent on all channels at once, and acknowledgements are not tracked {% include gap.html id="GAP-040" %}.
 
 ## Activation Message Format
 
@@ -73,7 +79,7 @@ WICEN-WA ACTIVATION
 
 In the case that WICEN becomes aware of a possible need our assistance, the State Coordinator or their delagate will place WICEN "On Watch".
 
-On watch moves all members into a monitoring actively for activations messages. Members actively on watch should turn on and test their equipment. They should prepare their 72 hour kit.
+On watch moves all members into a monitoring actively for activations messages. Members actively on watch should turn on and test their equipment. They should prepare their 72 hour kit. {% include gap.html id="GAP-019" %}
 
 The State Coordinator will activate a "Watch Net" on the available frequencies in the comms plan. If necessary, they will nominate a watch station who will monitor the appropriate frequencies.
 

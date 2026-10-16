@@ -67,6 +67,8 @@ WICEN's RATEL manual defines a fuller formal message than the format above. Its 
 
 *Example:* "VK6BB, message number zero five slant one five, routine, TIME one five one one three zero hotel, OPS one six, from Bloggs, to Jones, BREAK, PARA ONE, do you have any batteries, FULL STOP, para two nil return required, FULL STOP, MESSAGE ENDS, OVER."
 
+Rules on sending personal or sensitive information are not yet defined {% include gap.html id="GAP-032" %}.
+
 **Received messages** are rewritten onto a form (in duplicate if needed), given an IN serial number, logged, and the original goes to the addressee. Sent and received copies are filed separately.
 
 ## Call Sign Identification
@@ -77,7 +79,7 @@ The [Radiocommunications Licence Conditions (Amateur Licence) Determination 2025
 
 A message format records one message. A log records everything a station did. This site's message format doesn't replace the need for a log — modelled on the [ICS-309 Communications Log](https://www.qsl.net/ccares/ics309.pdf) standard used across Australian and international emcomm practice.
 
-The log stays with the station, not the operator, so it survives a shift or operator change.
+The log stays with the station, not the operator, so it survives a shift or operator change. How long logs are kept, and handover to the controlling agency, are not yet defined {% include gap.html id="GAP-033" %}.
 
 Record for every transmission:
 
@@ -102,7 +104,7 @@ Dedicated net-logging software (e.g. [NCLog](http://nclog.org/), built specifica
 
 ## Situation Reports (SITREP)
 
-WICEN WA operates under [AIIMS](https://www.afac.com.au/AIIMS), not the US ICS forms culture — AIIMS's primary recurring documentation artifact is the **Situation Report (SITREP)**, not a numbered form.
+WICEN WA operates under [AIIMS](https://www.afac.com.au/AIIMS), not the US ICS forms culture — AIIMS's primary recurring documentation artifact is the **Situation Report (SITREP)**, not a numbered form {% include gap.html id="GAP-042" %}.
 
 A SITREP is published at a fixed interval — commonly every 24 hours for an extended incident, more often for a fast-moving one. Each functional area (Operations, Logistics, Planning, and so on) updates its own section; those sections roll up into one master SITREP, reviewed before release.
 

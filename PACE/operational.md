@@ -30,7 +30,7 @@ Triggers for stepping between tiers are not yet defined {% include gap.html id="
 
 ## Internet Collaboration
 
-Primary operational coordination occurs through an online collaboration platform.
+Primary operational coordination occurs through an online collaboration platform {% include gap.html id="GAP-044" %}.
 
 Recommended channels:
 
@@ -67,7 +67,7 @@ Allocate stations to specific tasks
     - Dedicated JS8Call Messaging Station
 - APRS Beacon Station
     - APRS messaging station
-    - Tactical APRS Callsign?
+    - Tactical APRS callsign {% include gap.html id="GAP-044" %}
 - Voice Net Controller VHF/UHF
     - Runs net discipline and logs every check-in in real time — see [Message Handling](./message-handling)'s Net Control Logging section
 - Voice Net Controller HF

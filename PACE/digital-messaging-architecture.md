@@ -240,6 +240,8 @@ When Station C becomes available the message is delivered
 
 ## Priority Levels
 
+Under review {% include gap.html id="GAP-012" %}.
+
 EMERGENCY
 
 Threat to life or safety
@@ -308,7 +310,7 @@ Digital interface
 
 Portable antenna
 
-Battery power
+Battery power {% include gap.html id="GAP-026" %}
 
 
 

@@ -93,3 +93,192 @@
   title: No standard net-logging or messaging software
   domain: Strategic Coordination / Long-Haul
   status: Open
+
+# Raised 2026-10-16 from an agency-perspective review of the plan.
+
+- id: GAP-018
+  title: No pathway for an agency to request WICEN — who can request, 24/7 contact point, request verification
+  domain: Activation & Alerting
+  status: Open
+
+- id: GAP-019
+  title: No explicit rule against self-deployment
+  domain: Activation & Alerting
+  status: Open
+
+- id: GAP-020
+  title: '"Incident Controller" used as a WICEN role, which conflicts with the AIIMS role of the same name'
+  domain: Activation & Alerting
+  status: Open
+
+- id: GAP-021
+  title: Deployment model doesn't place WICEN within the controlling agency's Logistics section / Communications Unit
+  domain: Deployment
+  status: Open
+
+- id: GAP-022
+  title: No WICEN liaison role to the agency's incident management team or Incident Support Group
+  domain: Deployment
+  status: Open
+
+- id: GAP-023
+  title: No capability statement — deployable team types, what each delivers, and response times
+  domain: Deployment
+  status: Open
+
+- id: GAP-024
+  title: No resource register of members' availability, equipment and location
+  domain: Deployment
+  status: Open
+
+- id: GAP-025
+  title: Primary tiers depend on internet/mobile networks — the first thing to fail in the incidents WICEN is called to
+  domain: All domains
+  status: Open
+
+- id: GAP-026
+  title: No power standard — operating endurance off mains power, power sources, and standard power distribution (Anderson Powerpole, 12 V DC, fusing)
+  domain: All domains
+  status: Open
+
+- id: GAP-027
+  title: No rostering or fatigue management for sustained operations
+  domain: Deployment
+  status: Open
+
+- id: GAP-028
+  title: No field safety arrangements — welfare check-ins, lone operators, agency safety inductions
+  domain: Deployment
+  status: Open
+
+- id: GAP-029
+  title: No access and entry requirements — insurance, agency induction, ID for road closures, fireground training and protective clothing
+  domain: Deployment / Training
+  status: Open
+
+- id: GAP-030
+  title: Incident page is designed to publish operational detail (frequencies, deployment instructions) publicly
+  domain: Incident Information
+  status: Open
+
+- id: GAP-031
+  title: No rule for relaying public warnings — Emergency WA is the authoritative source
+  domain: Incident Information
+  status: Open
+
+- id: GAP-032
+  title: No rule on sending personal or sensitive information over amateur radio, which cannot be encrypted
+  domain: Message Handling
+  status: Open
+
+- id: GAP-033
+  title: No retention of logs and message records, or handover to the controlling agency
+  domain: Message Handling
+  status: Open
+
+- id: GAP-034
+  title: Demobilisation procedure is a draft and not yet adopted or agreed with agencies
+  domain: Deployment
+  status: Open
+
+- id: GAP-035
+  title: No lessons-management process — debrief findings are not fed back into the plan
+  domain: All domains
+  status: Open
+
+- id: GAP-036
+  title: WICEN WA not listed in any Local Emergency Management Arrangements, and not taking part in LEMC exercises
+  domain: Deployment
+  status: Open
+
+- id: GAP-037
+  title: No hazard or seasonal readiness — bushfire (south), cyclone and flood (north), pre-season checks
+  domain: All domains
+  status: Open
+
+- id: GAP-038
+  title: Operating area expectations not defined — where WICEN will deploy, response times by area, regions aligned with emergency management districts
+  domain: All domains
+  status: Open
+
+- id: GAP-039
+  title: No interoperability with non-amateur users — UHF CB, marine VHF, VKS-737, agency radios
+  domain: Local/Tactical Field Comms
+  status: Open
+
+- id: GAP-040
+  title: Activation alerting steps through channels in sequence — no simultaneous send, acknowledgement tracking or escalation
+  domain: Activation & Alerting
+  status: Open
+
+- id: GAP-041
+  title: Incident page channel list doesn't match the frequency plan
+  domain: Radio Frequencies
+  status: Open
+
+- id: GAP-042
+  title: '"SITREP" used for both the hourly net and the AIIMS Situation Report'
+  domain: Strategic Coordination
+  status: Open
+
+- id: GAP-043
+  title: 80m night coverage overstated — northern WA needs its own regional net control
+  domain: Radio Frequencies
+  status: Open
+
+- id: GAP-044
+  title: Internet platform and tactical APRS callsigns not yet chosen
+  domain: Activation / Strategic Coordination
+  status: Open
+
+# Raised 2026-10-16 when the Event Support domain was added.
+
+- id: GAP-045
+  title: Event Support domain and its PACE ladder are a draft — not yet reviewed, tested or adopted
+  domain: Event Support
+  status: Open
+
+- id: GAP-046
+  title: No standard event support agreement — scope, responsibilities, single point of contact, insurance, costs
+  domain: Event Support
+  status: Open
+
+- id: GAP-047
+  title: No communications plan template for an organiser's event safety plan
+  domain: Event Support
+  status: Open
+
+- id: GAP-048
+  title: No checkpoint report format or logging tool for competitor tracking
+  domain: Event Support
+  status: Open
+
+- id: GAP-049
+  title: No overdue or missing competitor procedure agreed with organisers
+  domain: Event Support
+  status: Open
+
+- id: GAP-050
+  title: No event incident escalation procedure — who calls 000, location reporting, meeting ambulances
+  domain: Event Support
+  status: Open
+
+- id: GAP-051
+  title: No handover procedure when an event incident becomes an emergency-service-controlled incident
+  domain: Event Support
+  status: Open
+
+- id: GAP-052
+  title: No course coverage survey method, or approach to temporary relays and portable repeaters
+  domain: Event Support
+  status: Open
+
+- id: GAP-053
+  title: Licence conditions for event support not confirmed — payment or donations, carrying organisers' traffic
+  domain: Event Support
+  status: Open
+
+- id: GAP-054
+  title: Multi-day station moves (leapfrogging) and overnight remote stations not planned
+  domain: Event Support
+  status: Open

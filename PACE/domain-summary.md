@@ -13,7 +13,7 @@ This Plan is currently only a DRAFT and has not been accepted or implemented by 
 
 The [Overview](./overview) describes PACE as a single ladder: Primary, Alternate, Contingency, Emergency, each layer assumed to only be used once the layer above it has failed.
 
-In practice, WICEN-WA's communications cover several different jobs — alerting members, coordinating an incident, moving long-form traffic statewide, running a field team, liaising interstate — and each of those jobs has its own Primary/Alternate/Contingency/Emergency answer. Trying to describe all of them with one ladder is what caused MeshCore (and other local/tactical tools) to have nowhere to sit in the plan.
+In practice, WICEN-WA's communications cover several different jobs — alerting members, coordinating an incident, moving long-form traffic statewide, running a field team, liaising interstate, supporting a planned event — and each of those jobs has its own Primary/Alternate/Contingency/Emergency answer. Trying to describe all of them with one ladder is what caused MeshCore (and other local/tactical tools) to have nowhere to sit in the plan.
 
 This page names those **domains** explicitly, so a reader can see the whole shape of the plan in one place instead of piecing it together from several pages. Each domain keeps its own detail page; this page is the map, not a replacement for them.
 
@@ -24,8 +24,11 @@ This page names those **domains** explicitly, so a reader can see the whole shap
 | [Activation & Alerting](./activation) | Getting members mobilised before/at the start of an incident | Internet Messaging (App/Signal/Discord) | Email Distribution | SMS Broadcast | Amateur Radio Alert Net (HF) |
 | [Strategic Coordination](./operational) | Incident-level coordination and command, once activated | Internet Collaboration Platform | Amateur Radio Voice Nets | Amateur Radio Digital Messaging | Voice Relay Network |
 | [Long-Haul Message Traffic](./digital-messaging-architecture) | Structured, state/regional-scale message traffic over HF | Winlink (HF) | JS8Call (HF) | *Not yet defined* {% include gap.html id="GAP-001" %} | *Not yet defined* {% include gap.html id="GAP-002" %} |
-| Local/Tactical Field Comms | Team-level comms for a single field unit or task group | VHF/UHF Voice (simplex/repeater) | Local digital mesh/messaging — technology not yet chosen {% include gap.html id="GAP-009" %} | HF Voice (if the team is remote enough to need it) | Runner / face-to-face |
+| Local/Tactical Field Comms | Team-level comms for a single field unit or task group | VHF/UHF Voice (simplex/repeater) | Local digital mesh/messaging — technology not yet chosen {% include gap.html id="GAP-009" %} | HF Voice (if the team is remote enough to need it) | Runner / face-to-face {% include gap.html id="GAP-039" %} |
 | [Cross-State Coordination](./cross-state-coordination) | Liaison with interstate amateur emergency comms groups | Internet Collaboration Platform | Winlink HF Email | HF Voice Liaison | *Not yet defined* {% include gap.html id="GAP-003" %} |
+| [Event Support](./event-support) | Communications for a planned event, run for the organiser's race control | VHF/UHF net to race control | Simplex relay via intermediate stations | HF NVIS or the event's own UHF CB | Satellite messenger/phone, then runner or vehicle {% include gap.html id="GAP-045" %} |
+
+Most Primary tiers depend on internet or mobile networks, which are often the first thing to fail in the incidents WICEN is called to {% include gap.html id="GAP-025" %}. Every tier also depends on power {% include gap.html id="GAP-026" %}.
 
 Local/Tactical Field Comms doctrine (node roles, standing orders, use cases) is still being drafted and does not have its own page yet {% include gap.html id="GAP-008" %} — see [Deployment Model](./deployment-model) for where this domain sits organisationally in the meantime.
 
@@ -47,7 +50,7 @@ Every domain above follows the Overview's rule — **each layer assumes the laye
 
 ## Net discipline
 
-Because there are now several domains instead of one ladder, net controllers and operators must name **which domain** they mean, not just the tier. "Field Comms going to Alternate, mesh" is a complete instruction; "going to Alternate" on its own is not — it's ambiguous between five different systems.
+Because there are now several domains instead of one ladder, net controllers and operators must name **which domain** they mean, not just the tier. "Field Comms going to Alternate, mesh" is a complete instruction; "going to Alternate" on its own is not — it's ambiguous between six different systems.
 
 ## Known gaps
 

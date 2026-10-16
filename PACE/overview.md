@@ -13,6 +13,8 @@ This Plan is currently only a DRAFT and has not been accepted or implemented by 
 
 This document describes the communications architecture used by WICENWA during emergency operations.
 
+It does not yet say what WICEN WA can deliver to a supported agency {% include gap.html id="GAP-023" %}, which WA hazards and seasons it prepares for {% include gap.html id="GAP-037" %}, or where in the state it expects to operate {% include gap.html id="GAP-038" %}.
+
 The plan follows the **PACE model**:
 
 Primary  
@@ -32,9 +34,11 @@ This document covers:
 - [Voice procedure (RATEL)](./voice-procedure)
 - [Incident information distribution](./incident-information-handling)
 - [Cross-state coordination](./cross-state-coordination)
+- [Event support](./event-support)
 - [Training](./training)
 - [HF Propagation Plan](./HF-propagation-plan)
 - [Deployment Model](./deployment-model)
+- [Demobilisation](./demobilisation)
 - [Activation Flowchart](./activation-flowchart)
 - [Digital Messaging Architecture](./digital-messaging-architecture)
 - [Known Gaps](./known-gaps)

@@ -15,6 +15,8 @@ Regional Net Control
     |
 Field Stations
 
+Regions are not yet defined or aligned with emergency management districts {% include gap.html id="GAP-038" %} {% include gap.html id="GAP-043" %}.
+
 ## Net Control Responsibilities
 
 Net Control Stations are responsible for:
@@ -30,7 +32,7 @@ Net procedure — directed and free nets, REPORTING INTO NET, handing over with 
 
 This plan provides recommended frequencies for statewide and regional communications.
 
-Actual frequencies may vary depending on interference and propagation conditions.
+Actual frequencies may vary depending on interference and propagation conditions. The channel list on the incident page does not yet match this plan {% include gap.html id="GAP-041" %}.
 
 
 ## HF Statewide Net
@@ -76,7 +78,7 @@ Scheduled nets ensure all stations remain informed.
 Example schedule:
 
 00 minutes past hour  
-Statewide SITREP Net
+Statewide SITREP Net {% include gap.html id="GAP-042" %}
 
 30 minutes past hour  
 Operational coordination net

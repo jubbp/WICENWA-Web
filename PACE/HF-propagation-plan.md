@@ -80,7 +80,7 @@ Primary Band: 80m
 
 Typical night coverage on 80m:
 
-Strong NVIS coverage across most of WA.
+Strong NVIS coverage across most of WA {% include gap.html id="GAP-043" %}.
 
 Reliable paths:
 
@@ -123,7 +123,7 @@ Regular nets ensure all stations remain informed.
 Example schedule:
 
 00 minutes past hour  
-Statewide situation report
+Statewide situation report {% include gap.html id="GAP-042" %}
 
 30 minutes past hour  
 Operational coordination
