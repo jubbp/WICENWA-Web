@@ -9,11 +9,13 @@ PaceNavTitle: 05. Radio Frequencies
 
 Radio communications operate in a hierarchical structure.
 
+```text
 State Net Control
     |
 Regional Net Control
     |
 Field Stations
+```
 
 Regions are not yet defined or aligned with emergency management districts {% include gap.html id="GAP-038" %} {% include gap.html id="GAP-043" %}.
 

@@ -1,0 +1,18 @@
+# WICEN-WA Operations Manual — revision control.
+#
+# The manual is compiled from the PACE plan pages by _tools/manual/build_manual.py.
+# To issue a new revision: add an entry at the TOP of `revisions`, then rebuild.
+# The first entry is the current revision; it appears in every page footer.
+
+title: WICEN-WA Operations Manual
+status: DRAFT
+
+revisions:
+  - revision: "0.1"
+    date: 16 October 2026
+    by: Phillip Jubb
+    changes: >-
+      First draft. Compiled from the website PACE plan (chapters 1–16) with
+      annexes: known gaps, glossary, blank message form, station log and
+      checkpoint report, frequency quick reference, General Preparation
+      Checklist, and the archived RATEL manual.

@@ -38,11 +38,13 @@ JS8Call – low bandwidth store-and-forward messaging
 
 The WICENWA digital messaging network operates in three layers.
 
+```text
 Internet Messaging Layer
     |
 HF Gateway Stations
     |
 Field Radio Stations
+```
 
 
 ---
@@ -184,6 +186,7 @@ The network uses automatic relays.
 
 Example topology:
 
+```text
 Pilbara Relay
      |
 Goldfields Relay
@@ -191,6 +194,7 @@ Goldfields Relay
 Perth Relay
      |
 Southwest Relay
+```
 
 ## Message Types
 

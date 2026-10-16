@@ -94,6 +94,19 @@ GitHub Pages lets browsers cache assets for 10 minutes. The stylesheet link in
 changes show up immediately after a deploy — give any new site-wide CSS or JS
 file the same `?v={{ site.time | date: '%s' }}` suffix.
 
+## Operations Manual
+
+The printable WICEN-WA Operations Manual (A4 PDF, wide left margin for binding,
+revision footer on every page) is compiled from the PACE plan pages plus annexes:
+
+```bash
+python3 -I _tools/manual/build_manual.py "WICEN-WA Operations Manual - Rev 0.1 (Draft).pdf"
+```
+
+To issue a new revision, add an entry at the top of `_data/manual.yml` and rebuild.
+Needs macOS (Swift/PDFKit renders the scanned annexes), Google Chrome and the
+Jekyll toolchain.
+
 ## Site Configuration
 
 Edit `_config.yml` to update:

@@ -1,0 +1,178 @@
+/* WICEN-WA Operations Manual — print stylesheet (A4, bound on the left edge). */
+
+@page {
+  size: A4;
+  margin: 18mm 18mm 22mm 32mm; /* wide left margin for binding */
+
+  @bottom-left {
+    content: "{{FOOTER_LEFT}}";
+    font: 7.5pt "Helvetica Neue", Arial, sans-serif;
+    color: #444;
+    vertical-align: top;
+    padding-top: 4mm;
+  }
+  @bottom-center {
+    content: "{{FOOTER_CENTRE}}";
+    font: 7.5pt "Helvetica Neue", Arial, sans-serif;
+    color: #444;
+    vertical-align: top;
+    padding-top: 4mm;
+  }
+  @bottom-right {
+    content: "Page " counter(page) " of " counter(pages);
+    font: 7.5pt "Helvetica Neue", Arial, sans-serif;
+    color: #444;
+    vertical-align: top;
+    padding-top: 4mm;
+  }
+}
+
+:root {
+  --ink: #151515;
+  --muted: #555;
+  --line: #bbb;
+  --accent: #ffd22e;
+  --shade: #f3f1ea;
+}
+
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+body {
+  margin: 0;
+  font: 10pt/1.45 "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+  background: #fff;
+}
+
+a { color: inherit; text-decoration: none; }
+p, li { orphans: 3; widows: 3; }
+ul, ol { padding-left: 6mm; }
+li { margin: 0.5mm 0; }
+code { font: 9pt Menlo, Consolas, monospace; }
+pre {
+  font: 9pt/1.35 Menlo, Consolas, monospace;
+  background: var(--shade);
+  border-left: 1.5mm solid var(--accent);
+  padding: 3mm 4mm;
+  white-space: pre-wrap;
+  break-inside: avoid;
+}
+blockquote {
+  margin: 3mm 0;
+  padding: 2mm 4mm;
+  border-left: 1.5mm solid var(--accent);
+  background: var(--shade);
+}
+
+/* Hidden page-number markers for the table of contents. */
+.mk { font-size: 1pt; color: #fff; position: absolute; }
+
+/* ---------- Headings ---------- */
+h1, h2, h3, h4 { break-after: avoid; line-height: 1.2; }
+h1 {
+  font-size: 20pt;
+  margin: 0 0 2mm;
+  padding-bottom: 2mm;
+  border-bottom: 1.2mm solid var(--accent);
+}
+h1 .num { display: inline-block; min-width: 10mm; margin-right: 2mm; }
+h2 { font-size: 13pt; margin: 7mm 0 2mm; }
+h2 .num { display: inline-block; min-width: 11mm; color: var(--muted); }
+h3 { font-size: 11pt; margin: 5mm 0 1.5mm; }
+h4 { font-size: 10pt; margin: 4mm 0 1mm; }
+
+.chapter, .annex, .front { break-before: page; }
+.part-label {
+  margin: 0 0 1mm;
+  font-size: 8.5pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.source { margin: 0 0 4mm; font-size: 8pt; color: var(--muted); }
+
+.draft-note {
+  margin: 3mm 0 4mm;
+  padding: 2.5mm 4mm;
+  background: #fff6cc;
+  border-left: 1.5mm solid var(--accent);
+  font-size: 9.5pt;
+}
+
+/* ---------- Gap references ---------- */
+.gap-ref {
+  display: inline-block;
+  padding: 0 1.2mm;
+  border: 0.3mm solid #999;
+  border-radius: 1mm;
+  background: #fff6cc;
+  font-size: 7.5pt;
+  font-weight: 700;
+  line-height: 1.5;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+/* ---------- Tables ---------- */
+table { border-collapse: collapse; width: 100%; margin: 2mm 0 4mm; font-size: 9pt; }
+th, td { border: 0.25mm solid var(--line); padding: 1.2mm 2mm; text-align: left; vertical-align: top; }
+thead th { background: var(--shade); }
+tr { break-inside: avoid; }
+.data th { width: auto; }
+.data.small { font-size: 8pt; }
+.glossary th { width: 24mm; background: var(--shade); }
+.nowrap { white-space: nowrap; }
+
+/* ---------- Cover ---------- */
+.cover { height: 240mm; display: flex; flex-direction: column; }
+.cover .logo { width: 45mm; margin: 10mm 0 12mm; }
+.cover-org { font-size: 10pt; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.cover-title { font-size: 30pt; border: 0; margin: 4mm 0 3mm; padding: 0; }
+.cover-sub { font-size: 13pt; margin: 0 0 10mm; }
+.cover-status {
+  align-self: flex-start;
+  margin: 0 0 10mm;
+  padding: 1.5mm 5mm;
+  background: var(--accent);
+  font-size: 12pt;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+.cover-meta { width: 120mm; font-size: 10pt; }
+.cover-meta th { width: 32mm; background: var(--shade); }
+.cover-note { margin-top: auto; font-size: 8.5pt; color: var(--muted); }
+
+/* ---------- Contents ---------- */
+.toc { font-size: 10pt; }
+.toc td { border: 0; border-bottom: 0.2mm dotted var(--line); padding: 1.3mm 1mm; }
+.toc-part td { padding-top: 4mm; font-weight: 700; border-bottom: 0.4mm solid var(--ink); }
+.toc-n { width: 10mm; }
+.toc-p { width: 14mm; text-align: right; }
+
+/* ---------- Forms ---------- */
+.form-note { font-size: 8.5pt; color: var(--muted); }
+table.form td { height: 9mm; }
+table.form label { display: block; font-size: 7pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin-bottom: 1mm; }
+table.form .w33 { width: 33%; }
+table.form .text-box {
+  height: 95mm;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 7.4mm, #ddd 7.4mm, #ddd 7.6mm);
+  background-position: 0 6mm;
+}
+table.ops th { background: var(--shade); font-size: 8pt; }
+table.ops td { height: 9mm; }
+table.form.header td { height: 10mm; }
+table.log th { font-size: 8pt; }
+table.log td { height: 7.6mm; }
+.c-time { width: 15mm; }
+.c-call { width: 22mm; }
+.c-serial { width: 18mm; }
+.c-op { width: 12mm; }
+.c-status { width: 26mm; }
+
+/* ---------- Scanned attachments ---------- */
+.scan { break-before: page; text-align: center; }
+.scan.first { break-before: auto; }
+.scan img { max-width: 100%; max-height: 240mm; border: 0.2mm solid var(--line); }
+.scan.first img { max-height: 215mm; }

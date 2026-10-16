@@ -7,6 +7,7 @@ PaceNavTitle: 11. Deployment Model
 
 Typical field deployment structure.
 
+```text
 Incident Command
      |
 Communications Unit
@@ -14,6 +15,7 @@ Communications Unit
 Field Communications Teams
      |
 Supported Agency
+```
 
 This hierarchy follows the shape of [AIIMS](https://www.afac.com.au/AIIMS) (the Australasian Inter-Service Incident Management System, published by AFAC and used by every fire, emergency, and land management agency in Australia) without currently saying so — the [Capability Self-Assessment](/self-assessment) already states WICEN operates under AIIMS, but this is the only page where that structure actually shows up. WICEN WA does not yet have a formal, agency-recognised place within this structure {% include gap.html id="GAP-014" %} {% include gap.html id="GAP-036" %}.
 
