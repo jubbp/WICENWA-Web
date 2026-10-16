@@ -19,23 +19,24 @@ genuinely done rather than leaving them checked forever.
 
 ## PACE Plan — documentation gaps (no committee decision needed, can start anytime)
 
-From [Implementation Roadmap](PACE/implementation-roadmap.md) Phase 1 — pure
-documentation work, doesn't wait on any Aims decision:
+From the Implementation Roadmap Phase 1 (now in Google Drive `WICEN-WA/PACE_Plan/Working_Docs`) — pure
+documentation work, doesn't wait on any Aims decision. Gap IDs refer to the
+PACE Gap Register in the same Drive folder; the public summary is `_data/gaps.yml`:
 
-- [ ] Define the PACE triggers (when a domain steps from Primary → Alternate →
+- [ ] **GAP-004** Define the PACE triggers (when a domain steps from Primary → Alternate →
       Contingency → Emergency).
-- [ ] Resolve the Activation & Alerting "distinguishability" gap noted in the roadmap.
-- [ ] Fill in, or explicitly mark "not provided, by decision," the missing
+- [ ] **GAP-005** Resolve the Activation & Alerting "distinguishability" gap noted in the roadmap.
+- [ ] **GAP-001/002/003** Fill in, or explicitly mark "not provided, by decision," the missing
       Contingency/Emergency tiers in Long-Haul Message Traffic and Cross-State
       Coordination.
-- [ ] Inventory standing infrastructure WICEN WA already has informal access to —
+- [ ] **GAP-015** Inventory standing infrastructure WICEN WA already has informal access to —
       South West WA's APRS digipeater network and the expanding MeshCore coverage
-      area — and turn it into a documented asset register ([Committee Discussion §10](PACE/committee-discussion.md)).
+      area — and turn it into a documented asset register (Committee Discussion §10).
 
 ## Committee & membership decisions needed
 
-These block the rest of the PACE plan (see [Committee Discussion](PACE/committee-discussion.md)
-"Outcome" section) and are for the committee/membership, not something to resolve
+These block the rest of the PACE plan (see Committee Discussion "Outcome"
+section, in Google Drive `WICEN-WA/PACE_Plan/Working_Docs`) and are for the committee/membership, not something to resolve
 in code. Tracking them here so they don't get lost, not to imply engineering can
 close them out.
 
@@ -73,5 +74,5 @@ close them out.
       message form? Confirm abbreviated procedure against the ACMA ID rule.
 
 Once §1 and §3 in particular are answered, revisit and rewrite
-[mission-and-aims.md](mission-and-aims.md) and [PACE/implementation-roadmap.md](PACE/implementation-roadmap.md)
+[mission-and-aims.md](mission-and-aims.md) and the Implementation Roadmap (Drive)
 to match, per their own "what would change this draft" sections.

@@ -9,12 +9,14 @@ This is the **Long-Haul Message Traffic** domain — see the [Domain Summary](./
 
 ## Long-Haul Message Traffic PACE
 
+Triggers for stepping between tiers are not yet defined {% include gap.html id="GAP-004" %}.
+
 | Level | System | Use |
 |------|------|------|
 | PRIMARY | Winlink (HF) | Structured, email-style messaging with forms and attachments |
-| ALTERNATE | JS8Call (HF) | Weak-signal, store-and-forward messaging |
-| CONTINGENCY | *Not yet defined* | |
-| EMERGENCY | *Not yet defined* | |
+| ALTERNATE | JS8Call (HF) | Weak-signal, store-and-forward messaging {% include gap.html id="GAP-007" %} |
+| CONTINGENCY | *Not yet defined* {% include gap.html id="GAP-001" %} | |
+| EMERGENCY | *Not yet defined* {% include gap.html id="GAP-002" %} | |
 
 Digital messaging provides resilient, structured communications during
 emergency operations.

@@ -15,7 +15,7 @@ title: Draft Mission Statement and Aims
 
 This keeps the current statement's core claim (a trained network, ready to help when normal comms fail) but makes two changes worth flagging explicitly:
 
-- It names **communities directly**, not only "government agencies, emergency services, and the community" as a single trailing clause — because §5 and §6 of the [Committee Discussion](/PACE/committee-discussion) raised a genuine question about whether WICEN WA's role extends beyond agency support, and a mission statement that already assumes "no" would quietly foreclose that before the membership has actually decided.
+- It names **communities directly**, not only "government agencies, emergency services, and the community" as a single trailing clause — because §5 and §6 of the Committee Discussion (a committee working document) raised a genuine question about whether WICEN WA's role extends beyond agency support, and a mission statement that already assumes "no" would quietly foreclose that before the membership has actually decided.
 - It says **"through regular practice, community service, and formal readiness"** — an honest acknowledgment that event support and training are part of how the mission gets delivered, not a distraction from it, which is closer to what §1's post-history evidence actually shows WICEN WA doing.
 
 It deliberately does **not** name specific agencies, technologies, or a target activation scale — that's what the aims below are for, and it's exactly the kind of detail a mission statement shouldn't lock in.
@@ -24,7 +24,7 @@ It deliberately does **not** name specific agencies, technologies, or a target a
 
 ## Aims (draft)
 
-Each of these is written to be checkable in a few years, not just aspirational. Several depend directly on which operating model the membership picks in [Committee Discussion §1](/PACE/committee-discussion) — that dependency is noted for each one.
+Each of these is written to be checkable in a few years, not just aspirational. Several depend directly on which operating model the membership picks in Committee Discussion §1 — that dependency is noted for each one.
 
 **1. Rebuild a trained, available membership base.**
 Grow beyond the roughly nine-person scale visible in WICEN WA's largest recent activity to a membership that can genuinely staff the roles this plan assumes — Net Control, digital operators, field stations — simultaneously, not just individually. *(Depends on: the capability headcount raised in Discussion §1 — this aim only means something once that number is actually known.)*
@@ -48,7 +48,7 @@ The cheapest aim on this list, and the one with no real dependency on any of the
 
 ## What would change this draft
 
-This draft leans on the "staged hybrid" model that the [Implementation Roadmap](/PACE/implementation-roadmap) already assumes by default — build local capability and event-support strength now, work toward formal served-agency recognition as membership grows, and pick up community-facing work opportunistically. If the membership answers Discussion §1 differently, this draft needs real rework, not just a rename:
+This draft leans on the "staged hybrid" model that the proposed Implementation Roadmap (a committee working document) already assumes by default — build local capability and event-support strength now, work toward formal served-agency recognition as membership grows, and pick up community-facing work opportunistically. If the membership answers Discussion §1 differently, this draft needs real rework, not just a rename:
 
 - **Event-club-first:** Aim 2 (formal recognition) drops out or becomes long-term-only; Aim 4 becomes the clear top priority instead of a maintenance item.
 - **Served-agency-first:** Aim 1 (membership/capability) and Aim 2 (formal recognition) become urgent, near-term aims, not medium-term ones; the mission statement's community-facing language may need to soften.

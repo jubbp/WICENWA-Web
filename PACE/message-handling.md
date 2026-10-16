@@ -33,7 +33,7 @@ Urgent operational information
 ROUTINE  
 Normal traffic
 
-**Proposed change — for committee decision ([Committee Discussion](./committee-discussion) §11):** replace EMERGENCY with **IMMEDIATE**, as used in WICEN's archived RATEL manual — ROUTINE / PRIORITY / IMMEDIATE, each sent before any lower-precedence traffic not already being transmitted. Two reasons: the RATEL manual was written for "maximum compatibility with Emergency Services", and "EMERGENCY" collides with the PACE plan's own *Emergency* tier — on a net, "going to Emergency" and "EMERGENCY traffic" mean different things. Until the committee decides, EMERGENCY remains in use.
+The precedence levels are under review {% include gap.html id="GAP-012" %}.
 
 ## Types of message
 
@@ -98,7 +98,7 @@ Net Control Stations carry an additional logging responsibility, separate from t
 - On busier nets, split the role: one operator runs the net, a separate Net Logger transcribes, so the NCS's hands stay free
 - If an Alternate NCS is appointed, they keep an independent duplicate log — a second original, not a copy of the primary — so there is no single point of failure in the record
 
-Dedicated net-logging software (e.g. [NCLog](http://nclog.org/), built specifically for ARES/RACES/public-service net logging) can export directly to ICS-214/309/205-style forms — see [Committee Discussion](./committee-discussion) §9 for the broader software discussion.
+Dedicated net-logging software (e.g. [NCLog](http://nclog.org/), built specifically for ARES/RACES/public-service net logging) can export directly to ICS-214/309/205-style forms {% include gap.html id="GAP-017" %}
 
 ## Situation Reports (SITREP)
 
@@ -106,8 +106,8 @@ WICEN WA operates under [AIIMS](https://www.afac.com.au/AIIMS), not the US ICS f
 
 A SITREP is published at a fixed interval — commonly every 24 hours for an extended incident, more often for a fast-moving one. Each functional area (Operations, Logistics, Planning, and so on) updates its own section; those sections roll up into one master SITREP, reviewed before release.
 
-The `#sitrep` channel already named on the [Operational Comms](./operational) page exists to support this cycle — but who compiles the master SITREP, at what interval, and who reviews it before release, is not yet defined anywhere in this plan. See [Committee Discussion](./committee-discussion) for related open questions.
+The `#sitrep` channel already named on the [Operational Comms](./operational) page exists to support this cycle; who compiles the master SITREP, at what interval, and who reviews it before release is not yet defined {% include gap.html id="GAP-011" %}.
 
 ## Compatibility with ICS forms
 
-Some supported agencies, and some of the software already named in this plan (Outpost's built-in ICS-213 generator, referenced in [Committee Discussion](./committee-discussion) §9), use FEMA ICS forms rather than AIIMS's SITREP cycle. WICEN WA operators should be able to produce either on request — [ICS-213](https://training.fema.gov/emiweb/is/icsresource/assets/ics%20forms/ics%20form%20213,%20general%20message%20(v3).pdf) (General Message), ICS-214 (Activity Log), and ICS-205/205A (Radio Communications Plan / Communications List) are the ones most likely to be asked for.
+Some supported agencies, and some of the software already named in this plan (such as Outpost's built-in ICS-213 generator), use FEMA ICS forms rather than AIIMS's SITREP cycle. WICEN WA operators should be able to produce either on request — [ICS-213](https://training.fema.gov/emiweb/is/icsresource/assets/ics%20forms/ics%20form%20213,%20general%20message%20(v3).pdf) (General Message), ICS-214 (Activity Log), and ICS-205/205A (Radio Communications Plan / Communications List) are the ones most likely to be asked for.

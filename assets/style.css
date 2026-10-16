@@ -1886,3 +1886,22 @@ tbody tr:hover {
   width: auto;
   white-space: nowrap;
 }
+
+/* Gap reference badge — links a plan statement to its entry on Known Gaps */
+.gap-ref {
+  display: inline-block;
+  padding: 0 0.4em;
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
+  background: var(--warn-bg);
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+.gap-ref:hover {
+  border-color: var(--accent);
+}

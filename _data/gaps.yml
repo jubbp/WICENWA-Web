@@ -1,0 +1,95 @@
+# Known gaps in the PACE plan.
+#
+# The master register — discussion, decisions and revision history — is the
+# "PACE Gap Register" document in the WICEN WA Google Drive
+# (WICEN-WA/PACE_Plan/Working_Docs). This file is the public summary only:
+# ID, title, domain and status. Keep IDs in step with the register and never
+# reuse one.
+#
+# status: Open | In discussion | Resolved
+# Reference a gap on a plan page with: {% include gap.html id="GAP-004" %}
+
+- id: GAP-001
+  title: Long-Haul Message Traffic has no Contingency tier
+  domain: Long-Haul Message Traffic
+  status: Open
+
+- id: GAP-002
+  title: Long-Haul Message Traffic has no Emergency tier
+  domain: Long-Haul Message Traffic
+  status: Open
+
+- id: GAP-003
+  title: Cross-State Coordination has no Emergency tier
+  domain: Cross-State Coordination
+  status: Open
+
+- id: GAP-004
+  title: No domain defines triggers for stepping between PACE tiers
+  domain: All domains
+  status: Open
+
+- id: GAP-005
+  title: Activation & Alerting Primary and Alternate share the same internet/cellular path
+  domain: Activation & Alerting
+  status: Open
+
+- id: GAP-006
+  title: Strategic Coordination Contingency and Emergency tiers not confirmed as distinguishable
+  domain: Strategic Coordination
+  status: Open
+
+- id: GAP-007
+  title: Long-Haul Primary and Alternate are both HF — distinguishability not confirmed
+  domain: Long-Haul Message Traffic
+  status: Open
+
+- id: GAP-008
+  title: Local/Tactical Field Comms has no doctrine page
+  domain: Local/Tactical Field Comms
+  status: Open
+
+- id: GAP-009
+  title: Local/Tactical Alternate tier technology not chosen
+  domain: Local/Tactical Field Comms
+  status: Open
+
+- id: GAP-010
+  title: Overview names MeshCore as the Local/Tactical Alternate tier, but no technology has been chosen
+  domain: Local/Tactical Field Comms
+  status: Open
+
+- id: GAP-011
+  title: SITREP compiler, interval and reviewer not defined
+  domain: Strategic Coordination
+  status: Open
+
+- id: GAP-012
+  title: Message precedence — EMERGENCY or IMMEDIATE — not settled
+  domain: All voice and message traffic
+  status: Open
+
+- id: GAP-013
+  title: Voice Procedure (RATEL) not formally adopted
+  domain: All voice tiers
+  status: Open
+
+- id: GAP-014
+  title: No formal, agency-recognised place for WICEN WA (AIIMS structure, State Support Plan)
+  domain: Deployment / Incident Information
+  status: Open
+
+- id: GAP-015
+  title: Existing standing infrastructure (APRS digipeaters, MeshCore coverage) not inventoried
+  domain: All domains
+  status: Open
+
+- id: GAP-016
+  title: No standard field go-kit defined
+  domain: Local/Tactical Field Comms
+  status: Open
+
+- id: GAP-017
+  title: No standard net-logging or messaging software
+  domain: Strategic Coordination / Long-Haul
+  status: Open

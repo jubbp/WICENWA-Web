@@ -7,7 +7,7 @@ PaceNavTitle: 06a. Voice Procedure
 
 ## DRAFT ONLY
 
-This page adapts WICEN WA's archived *Radiotelephone (RATEL) Procedure for Operators in WICEN* (about 2002) for the current plan. It has not yet been formally adopted — see [Committee Discussion](./committee-discussion) §11. The original scanned manual is available on the [Members](/members) page ([PDF](/assets/WICENWA-RATEL-Procedures.pdf)).
+This page adapts WICEN WA's archived *Radiotelephone (RATEL) Procedure for Operators in WICEN* (about 2002) for the current plan. It has not yet been formally adopted {% include gap.html id="GAP-013" %}. The original scanned manual is available on the [Members](/members) page ([PDF](/assets/WICENWA-RATEL-Procedures.pdf)).
 
 ## Where this fits in the plan
 
@@ -183,5 +183,5 @@ The abbreviated list from the original manual. The full list, with alternative m
 
 - Gender-neutral wording, and small errors corrected (duplicate paragraph numbers, "7075 MHz" for 7.075 MHz, READBACK / READ BACK).
 - Military teletype and security-classification fields left out.
-- Precedence is covered on [Message Handling](./message-handling), where the original's ROUTINE / PRIORITY / IMMEDIATE is proposed for adoption.
+- Precedence is covered on [Message Handling](./message-handling), where precedence is under review {% include gap.html id="GAP-012" %}.
 - Linked to the PACE domains and to the call-sign identification rule, neither of which existed when the manual was written.

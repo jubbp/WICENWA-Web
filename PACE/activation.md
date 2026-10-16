@@ -26,9 +26,11 @@ Activation may be initiated by:
 
 ## Activation PACE
 
+Triggers for stepping between tiers are not yet defined {% include gap.html id="GAP-004" %}.
+
 | Level | Method | Description |
 |------|------|-------------|
-| PRIMARY | Internet Messaging | WICEN-WA App / Signal / Discord |
+| PRIMARY | Internet Messaging | WICEN-WA App / Signal / Discord {% include gap.html id="GAP-005" %} |
 | ALTERNATE | Email Distribution | WICEN-WA email group |
 | CONTINGENCY | SMS Broadcast | Bulk SMS alert |
 | EMERGENCY | Amateur Radio Alert Net | HF activation frequency |

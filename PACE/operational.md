@@ -19,11 +19,13 @@ Members may join operations at any time, therefore communications systems must s
 
 ## Operational PACE
 
+Triggers for stepping between tiers are not yet defined {% include gap.html id="GAP-004" %}.
+
 | Level | System | Use |
 |------|------|------|
 | PRIMARY | Internet Collaboration Platform | Incident coordination |
 | ALTERNATE | Amateur Radio Voice Nets | Operational communications |
-| CONTINGENCY | Amateur Radio Digital Messaging | Structured message passing |
+| CONTINGENCY | Amateur Radio Digital Messaging | Structured message passing {% include gap.html id="GAP-006" %} |
 | EMERGENCY | Voice Relay Network | Station-to-station relay — see [Voice Procedure](./voice-procedure)'s Relay section |
 
 ## Internet Collaboration

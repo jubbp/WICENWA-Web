@@ -1,0 +1,1 @@
+{% assign gap = site.data.gaps | where: "id", include.id | first %}<a class="gap-ref" href="/PACE/known-gaps#{{ include.id | downcase }}" title="{{ gap.title | escape }}">{{ include.id }}</a>
