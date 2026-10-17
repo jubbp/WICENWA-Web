@@ -3,11 +3,26 @@
 # The manual is compiled from the PACE plan pages by _tools/manual/build_manual.py.
 # To issue a new revision: add an entry at the TOP of `revisions`, then rebuild.
 # The first entry is the current revision; it appears in every page footer.
+#
+# The manual is also downloadable from the website
+# (assets/manual/WICEN-WA-Operations-Manual.pdf, linked from the PACE Overview and
+# Member Info pages). Whenever the manual is republished, the website copy must be
+# replaced with the current version too: issue it with `tools/export.py manual` in
+# WICENWA-Records, which writes the same PDF to Drive and to this repository, then
+# commit and push. Never update the website PDF any other way.
 
 title: WICEN-WA Operations Manual
 status: DRAFT
 
 revisions:
+  - revision: "0.3"
+    date: 17 October 2026
+    by: Phillip Jubb
+    changes: >-
+      80m night statewide net changed to 3.610 MHz (WIA band plan 2026-1).
+      Hourly net renamed the statewide status net, to keep SITREP for the AIIMS
+      Situation Report. Overview no longer names MeshCore as the Local/Tactical
+      Alternate tier. First revision offered for download on the website.
   - revision: "0.2"
     date: 16 October 2026
     by: Phillip Jubb

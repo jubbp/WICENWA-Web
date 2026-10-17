@@ -11,6 +11,7 @@ The following resources are directed towards Members of WICEN-Wa but anyone may 
 |---|---|---|
 | Membership Application | This form is editable and to be used for officially requesting to join WICEN-WA | [Download](/assets/Membership%20Application-Fillable.pdf) |
 | General Prep Checklist | A checklist of important topics to help you when you are considering your personal preparedness | [Download](/assets/General%20Prep%20Checkllist.pdf)
+| Operations Manual | {% assign manual_rev = site.data.manual.revisions | first %}The PACE plan compiled for printing, with field forms and annexes — Rev {{ manual_rev.revision }} ({{ site.data.manual.status | capitalize }}), {{ manual_rev.date }} | [Download](/assets/manual/WICEN-WA-Operations-Manual.pdf) |
 | RATEL Manual | A historical document which explains WICEN WA's radio telephony procedures | [Download](/assets/WICENWA-RATEL-Procedures.pdf)
 |---|---|---|
 

@@ -9,6 +9,9 @@ PaceNavTitle: 01. Overview
 
 This Plan is currently only a DRAFT and has not been accepted or implemented by WICEN WA. It is largely incomplete.
 
+{% assign manual_rev = site.data.manual.revisions | first %}
+**Printable copy:** [WICEN-WA Operations Manual — Rev {{ manual_rev.revision }} ({{ site.data.manual.status | capitalize }}), {{ manual_rev.date }} (PDF)](/assets/manual/WICEN-WA-Operations-Manual.pdf) — this whole plan compiled into one A4 document for printing, with the field forms and reference annexes. These web pages are always the latest version; check the revision number on a printed copy before relying on it.
+
 
 
 This document describes the communications architecture used by WICENWA during emergency operations.

@@ -105,6 +105,14 @@ python3 -I _tools/manual/build_manual.py "WICEN-WA Operations Manual - Rev 0.1 (
 
 To issue a new revision, add an entry at the top of `_data/manual.yml` and rebuild.
 
+The manual is offered for download at `assets/manual/WICEN-WA-Operations-Manual.pdf`
+(linked from the PACE Overview and Member Info pages, which show the revision from
+`_data/manual.yml`). **Whenever the manual is republished, the current version must
+be republished to the website too.** Issue it with `python3 -I tools/export.py manual`
+in WICENWA-Records — that writes the same PDF to Google Drive and to this repository —
+then commit and push. `tools/export.py check` there reports if the website copy is
+not the current release.
+
 The exercise forms (Operator Sign-In Sheet, Safety Briefing and Job Hazard
 Analysis) are also built as standalone PDFs, one per form, each with its own
 revision from `_data/forms.yml`:
