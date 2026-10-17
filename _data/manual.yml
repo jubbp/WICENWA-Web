@@ -15,6 +15,12 @@ title: WICEN-WA Operations Manual
 status: DRAFT
 
 revisions:
+  - revision: "0.4"
+    date: 17 October 2026
+    by: Phillip Jubb
+    changes: >-
+      Activation Flowchart (Chapter 4) fixed: the final step, HF Activation Net,
+      had fallen outside the diagram.
   - revision: "0.3"
     date: 17 October 2026
     by: Phillip Jubb
