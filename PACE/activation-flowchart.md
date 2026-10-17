@@ -19,6 +19,6 @@ Alert Sent via Internet Messaging
 Email Distribution
         |
 SMS Broadcast
-```
         |
 HF Activation Net
+```
