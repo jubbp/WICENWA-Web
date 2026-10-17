@@ -113,8 +113,8 @@ in WICENWA-Records — that writes the same PDF to Google Drive and to this repo
 then commit and push. `tools/export.py check` there reports if the website copy is
 not the current release.
 
-The exercise forms (Operator Sign-In Sheet, Safety Briefing and Job Hazard
-Analysis) are also built as standalone PDFs, one per form, each with its own
+The exercise forms (Operator Sign-In Sheet, Safety Briefing and Activity Safety
+Assessment) are also built as standalone PDFs, one per form, each with its own
 revision from `_data/forms.yml`:
 
 ```bash

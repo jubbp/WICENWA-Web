@@ -15,10 +15,14 @@
       changes: First draft.
 
 - id: safety-jha
-  title: Safety Briefing and Job Hazard Analysis
-  short: Safety Briefing / JHA
+  title: Safety Briefing and Activity Safety Assessment
+  short: Safety Briefing / ASA
   status: DRAFT
   revisions:
+    - revision: "0.2"
+      date: 17 October 2026
+      by: Phillip Jubb
+      changes: Renamed from Safety Briefing and Job Hazard Analysis (JHA) — "job" doesn't suit volunteer activities. Content unchanged.
     - revision: "0.1"
       date: 16 October 2026
       by: Phillip Jubb

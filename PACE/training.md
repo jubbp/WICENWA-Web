@@ -35,7 +35,7 @@ Every exercise, and every field deployment, starts the same way:
 
 1. **Conditions check.** The exercise controller checks the fire danger rating, any Total Fire Ban, the weather and the sites, and makes a go / no-go decision.
 2. **Sign-in.** Every participant signs the Operator Sign-In Sheet, confirming they are fit for duty, and signs out before leaving.
-3. **Safety briefing.** The safety officer briefs everyone from the Safety Briefing and Job Hazard Analysis, adds any site-specific hazards, and each participant signs the briefing record.
+3. **Safety briefing.** The safety officer briefs everyone from the Safety Briefing and Activity Safety Assessment, adds any site-specific hazards, and each participant signs the briefing record.
 
 Exercise traffic starts and ends with **EXERCISE** {% include gap.html id="GAP-056" %}. A real emergency during an exercise is called with **NO DUFF**, which stops all exercise traffic. Anyone can stop the exercise for a safety concern.
 

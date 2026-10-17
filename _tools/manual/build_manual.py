@@ -65,7 +65,7 @@ ANNEXES = [
     ("station-log", "Station and Net Log"),
     ("checkpoint-report", "Event Checkpoint Report"),
     ("sign-in", "Operator Sign-In Sheet"),
-    ("safety-jha", "Safety Briefing and Job Hazard Analysis"),
+    ("safety-jha", "Safety Briefing and Activity Safety Assessment"),
     ("frequency-card", "Frequency Quick Reference"),
     ("prep-checklist", "General Preparation Checklist"),
     ("ratel", "Archived RATEL Procedure (c. 2002)"),
@@ -162,6 +162,7 @@ def annexes_html(gaps, scans):
         ("AFAC", "Australasian Fire and Emergency Service Authorities Council — publisher of AIIMS"),
         ("AIIMS", "Australasian Inter-Service Incident Management System — the incident management system used by Australian emergency services"),
         ("APRS", "Automatic Packet Reporting System — position and short-message system on VHF"),
+        ("ASA", "Activity safety assessment — tasks, hazards, risk ratings and controls (Annex " + ANNEX_LETTER["safety-jha"] + ")"),
         ("AREDN", "Amateur Radio Emergency Data Network — Wi-Fi-based amateur mesh network"),
         ("DFES", "Department of Fire and Emergency Services (WA)"),
         ("DIS", "Digital Information Station — distributes incident information to members (Chapter 3)"),
@@ -172,7 +173,6 @@ def annexes_html(gaps, scans):
         ("ICS", "Incident Command System (US) — source of the ICS-2xx forms"),
         ("IMT", "Incident management team — the controlling agency's team running an incident"),
         ("ISG", "Incident Support Group — agencies supporting an incident management team"),
-        ("JHA", "Job hazard analysis — tasks, hazards, risk ratings and controls (Annex " + ANNEX_LETTER["safety-jha"] + ")"),
         ("JS8Call", "Weak-signal HF keyboard messaging mode with store-and-forward"),
         ("LEMC", "Local Emergency Management Committee — a local government's emergency management committee"),
         ("LSB / USB", "Lower / upper sideband — HF voice modes"),
@@ -242,7 +242,7 @@ def annexes_html(gaps, scans):
 </section>""")
 
     out.append(annex_open("sign-in", "Operator Sign-In Sheet", " form landscape") + forms.signin_html() + "</section>")
-    out.append(annex_open("safety-jha", "Safety Briefing and Job Hazard Analysis", " form jha-annex") + forms.jha_html() + "</section>")
+    out.append(annex_open("safety-jha", "Safety Briefing and Activity Safety Assessment", " form jha-annex") + forms.jha_html() + "</section>")
 
     out.append(annex_open("frequency-card", "Frequency Quick Reference") + """
 <p>Compiled from Chapters 8–10. Frequencies may change with interference and propagation; Net Control directs any change. <span class="gap-ref">GAP-041</span></p>

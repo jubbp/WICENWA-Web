@@ -131,7 +131,7 @@ def jha_html():
              "EXERCISE at the start and end of every exercise message; <strong>NO DUFF</strong> for a real emergency; ENDEX ends the exercise",
              "<strong>Anyone can stop the exercise</strong> for a safety concern — no questions asked",
              "Sign-in, fitness for duty, and sign-out before leaving",
-             "Hazards and controls in this JHA, including today's site-specific hazards",
+             "Hazards and controls in this assessment, including today's site-specific hazards",
              "Weather and fire danger, and what would cancel or stop the exercise",
              "Check-in schedule and what happens if a check-in is missed",
              "First aid, emergency numbers, nearest hospital and assembly point",
@@ -182,7 +182,7 @@ def jha_html():
 <p class="form-note">Risk is written as likelihood and consequence, e.g. <strong>C4</strong> = possible, major. Consequence: {conseq}.</p>
 
 <div class="landscape">
-<h2>5 Job hazard analysis</h2>
+<h2>5 Standard hazards and controls</h2>
 <table class="data jha"><thead><tr><th class="c-n">#</th><th class="c-task">Task</th><th class="c-hazard">Hazard</th><th class="c-risk">Risk</th><th>Controls</th><th class="c-risk">Risk after controls</th><th class="c-who">Who</th></tr></thead>
 <tbody>{rows}</tbody></table>
 

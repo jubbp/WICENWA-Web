@@ -204,7 +204,7 @@ table.signin th.c-time { width: 15mm; }
 .c-tick { width: 13mm; text-align: center; }
 .c-sig { width: 30mm; }
 
-/* ---------- Safety briefing and JHA ---------- */
+/* ---------- Safety briefing and activity safety assessment (classes keep the old jha names) ---------- */
 .form h2 { font-size: 11.5pt; margin: 5mm 0 1.5mm; }
 .checks th { width: 62mm; background: var(--shade); }
 .checks th, .checks td { padding-top: 1mm; padding-bottom: 1mm; }
