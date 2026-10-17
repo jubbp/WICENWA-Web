@@ -176,3 +176,68 @@ table.log td { height: 7.6mm; }
 .scan.first { break-before: auto; }
 .scan img { max-width: 100%; max-height: 240mm; border: 0.2mm solid var(--line); }
 .scan.first img { max-height: 215mm; }
+
+/* ---------- Landscape pages (Operator Sign-In Sheet) ---------- */
+/* When bound into a portrait manual, a landscape page's top edge sits at the spine. */
+@page landscape {
+  size: A4 landscape;
+  margin: 25mm 15mm 18mm 15mm;
+}
+.landscape { page: landscape; }
+
+.declaration { font-size: 8.5pt; padding: 2mm 3mm; border: 0.3mm solid var(--line); background: var(--shade); }
+table.signin td { height: 8mm; padding-top: 0.5mm; padding-bottom: 0.5mm; }
+table.signin .c-n { width: 6mm; text-align: center; color: var(--muted); }
+table.signin { table-layout: fixed; }
+table.signin th.c-n { width: 6mm; }
+table.signin th.c-name { width: 44mm; }
+table.signin th.c-call { width: 20mm; }
+table.signin th.c-phone { width: 25mm; }
+table.signin th.c-role { width: 30mm; }
+table.signin th.c-ec { width: 42mm; }
+table.signin th.c-rego { width: 18mm; }
+table.signin th.c-tick { width: 13mm; }
+table.signin th.c-time { width: 15mm; }
+.c-phone { width: 26mm; }
+.c-ec { width: 50mm; }
+.c-rego { width: 20mm; }
+.c-tick { width: 13mm; text-align: center; }
+.c-sig { width: 30mm; }
+
+/* ---------- Safety briefing and JHA ---------- */
+.form h2 { font-size: 11.5pt; margin: 5mm 0 1.5mm; }
+.checks th { width: 62mm; background: var(--shade); }
+.checks th, .checks td { padding-top: 1mm; padding-bottom: 1mm; }
+.checks td { height: 5mm; }
+table.go td { height: 11mm; }
+.checklist { list-style: none; padding-left: 0; columns: 1; }
+.checklist li { margin: 1mm 0; }
+.emergency th { width: 48mm; background: var(--shade); }
+
+.matrix { width: auto; font-size: 8pt; text-align: center; }
+.matrix th, .matrix td { text-align: center; padding: 1.5mm 2mm; }
+.matrix th span { font-weight: 400; font-size: 7pt; color: var(--muted); }
+.matrix .m-l { text-align: left; }
+.matrix td { width: 22mm; font-weight: 700; }
+.actions { width: auto; font-size: 8.5pt; }
+.actions td:first-child { width: 22mm; font-weight: 700; text-align: center; }
+
+.risk-L { background: #cfe8cf; }
+.risk-M { background: #fff1a8; }
+.risk-H { background: #ffc98a; }
+.risk-E { background: #f4a3a3; }
+.risk { display: inline-block; padding: 0.3mm 1.2mm; border-radius: 1mm; font-weight: 700; font-size: 7.5pt; white-space: nowrap; }
+
+.jha { font-size: 8pt; table-layout: fixed; }
+.jha th.c-n { width: 6mm; }
+.jha th.c-task { width: 32mm; }
+.jha th.c-hazard { width: 52mm; }
+.jha th.c-risk { width: 22mm; }
+.jha th.c-who { width: 26mm; }
+.jha ul { margin: 0; padding-left: 4mm; }
+.jha li { margin: 0; }
+.jha .c-n, .jha-blank .c-n { width: 5mm; color: var(--muted); }
+.c-task { width: 30mm; }
+.c-risk { width: 21mm; }
+.c-who { width: 24mm; }
+table.jha-blank td { height: 12mm; }

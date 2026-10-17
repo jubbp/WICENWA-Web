@@ -1,0 +1,25 @@
+# WICEN-WA exercise and field forms — revision control.
+#
+# Built as standalone PDFs by _tools/manual/build_forms.py, and included in the
+# Operations Manual as annexes. To issue a new revision of a form: add an entry
+# at the TOP of its `revisions`, then rebuild the forms and the manual.
+
+- id: sign-in
+  title: Operator Sign-In Sheet
+  short: Sign-In Sheet
+  status: DRAFT
+  revisions:
+    - revision: "0.1"
+      date: 16 October 2026
+      by: Phillip Jubb
+      changes: First draft.
+
+- id: safety-jha
+  title: Safety Briefing and Job Hazard Analysis
+  short: Safety Briefing / JHA
+  status: DRAFT
+  revisions:
+    - revision: "0.1"
+      date: 16 October 2026
+      by: Phillip Jubb
+      changes: First draft — conditions check, briefing order, risk matrix, 21 standard field hazards, site-specific hazards and briefing record.

@@ -104,6 +104,14 @@ python3 -I _tools/manual/build_manual.py "WICEN-WA Operations Manual - Rev 0.1 (
 ```
 
 To issue a new revision, add an entry at the top of `_data/manual.yml` and rebuild.
+
+The exercise forms (Operator Sign-In Sheet, Safety Briefing and Job Hazard
+Analysis) are also built as standalone PDFs, one per form, each with its own
+revision from `_data/forms.yml`:
+
+```bash
+python3 -I _tools/manual/build_forms.py "Exercise Forms"
+```
 Needs macOS (Swift/PDFKit renders the scanned annexes), Google Chrome and the
 Jekyll toolchain.
 

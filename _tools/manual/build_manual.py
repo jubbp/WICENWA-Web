@@ -24,6 +24,9 @@ HERE = Path(__file__).resolve().parent
 SITE_URL = "https://wicenwa.org"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
+sys.path.insert(0, str(HERE))
+import forms  # noqa: E402
+
 PARTS = [
     ("Part 1 — The Plan", [
         ("overview", "Overview"),
@@ -61,6 +64,8 @@ ANNEXES = [
     ("message-form", "Message Form"),
     ("station-log", "Station and Net Log"),
     ("checkpoint-report", "Event Checkpoint Report"),
+    ("sign-in", "Operator Sign-In Sheet"),
+    ("safety-jha", "Safety Briefing and Job Hazard Analysis"),
     ("frequency-card", "Frequency Quick Reference"),
     ("prep-checklist", "General Preparation Checklist"),
     ("ratel", "Archived RATEL Procedure (c. 2002)"),
@@ -162,21 +167,26 @@ def annexes_html(gaps, scans):
         ("DIS", "Digital Information Station — distributes incident information to members (Chapter 3)"),
         ("DNF", "Did not finish — a competitor withdrawn from an event"),
         ("DTG", "Date-time group — when a message was written"),
+        ("ENDEX", "End of exercise"),
         ("HF", "High frequency (3–30 MHz) — long-distance radio"),
         ("ICS", "Incident Command System (US) — source of the ICS-2xx forms"),
         ("IMT", "Incident management team — the controlling agency's team running an incident"),
         ("ISG", "Incident Support Group — agencies supporting an incident management team"),
+        ("JHA", "Job hazard analysis — tasks, hazards, risk ratings and controls (Annex " + ANNEX_LETTER["safety-jha"] + ")"),
         ("JS8Call", "Weak-signal HF keyboard messaging mode with store-and-forward"),
         ("LEMC", "Local Emergency Management Committee — a local government's emergency management committee"),
         ("LSB / USB", "Lower / upper sideband — HF voice modes"),
         ("NCS", "Net Control Station"),
+        ("NO DUFF", "Prefix for a real emergency during an exercise — stops all exercise traffic"),
         ("NVIS", "Near-vertical incidence skywave — HF propagation for regional (roughly 0–800 km) coverage"),
         ("PACE", "Primary, Alternate, Contingency, Emergency — the plan's layered communications model"),
         ("RATEL", "Radiotelephone procedure — WICEN's voice procedure (Chapter 14)"),
+        ("RCD", "Residual current device — safety switch on 240 V circuits"),
         ("RMS", "Radio Message Server — a Winlink gateway station"),
         ("SC", "State Coordinator (WICEN WA)"),
         ("SEMC", "State Emergency Management Committee (WA)"),
         ("SITREP", "Situation report — the regular AIIMS summary of an incident"),
+        ("TFB", "Total Fire Ban"),
         ("UHF CB", "UHF citizens band radio (476–477 MHz), licence-free; channels 5 and 35 are emergency channels"),
         ("VARA", "HF modem used by Winlink"),
         ("VHF / UHF", "Very / ultra high frequency — local and repeater radio"),
@@ -189,7 +199,7 @@ def annexes_html(gaps, scans):
                "</tbody></table></section>")
 
     out.append(annex_open("message-form", "Message Form", " form") + """
-<p class="form-note">Based on the RATEL message form (Annex A of the archived manual, Annex H). See Chapter 13 for how to complete and send it.</p>
+<p class="form-note">Based on the RATEL message form (Annex A of the archived manual, Annex """ + ANNEX_LETTER["ratel"] + """). See Chapter 13 for how to complete and send it.</p>
 <table class="form">
 <tr><td class="w33"><label>Serial number</label>IN&nbsp;/&nbsp;OUT&nbsp;&nbsp;______ / ______</td>
 <td class="w33"><label>Precedence <span class="gap-ref">GAP-012</span></label>&#9744; ROUTINE<br>&#9744; PRIORITY<br>&#9744; EMERGENCY</td>
@@ -230,6 +240,9 @@ def annexes_html(gaps, scans):
 <tbody>""" + ruled_rows(5, 18) + """</tbody></table>
 
 </section>""")
+
+    out.append(annex_open("sign-in", "Operator Sign-In Sheet", " form landscape") + forms.signin_html() + "</section>")
+    out.append(annex_open("safety-jha", "Safety Briefing and Job Hazard Analysis", " form jha-annex") + forms.jha_html() + "</section>")
 
     out.append(annex_open("frequency-card", "Frequency Quick Reference") + """
 <p>Compiled from Chapters 8–10. Frequencies may change with interference and propagation; Net Control directs any change. <span class="gap-ref">GAP-041</span></p>
