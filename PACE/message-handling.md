@@ -7,7 +7,7 @@ PaceNavTitle: 06. Message Handling
 
 All formal messages should follow a standard format.
 
-This ensures clarity and traceability.
+This ensures clarity and traceability. The page also describes the fuller RATEL formal message below; which format is used when is not yet stated {% include gap.html id="GAP-057" %}.
 
 ## Standard Message Format
 

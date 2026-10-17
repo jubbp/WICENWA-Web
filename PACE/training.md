@@ -19,6 +19,8 @@ Digital messaging training sessions
 
 ## Operator baseline
 
+A code of conduct for members is not yet adopted {% include gap.html id="GAP-055" %}.
+
 Every operator should know WICEN's [Voice Procedure (RATEL)](./voice-procedure) — calls and answers, prowords, spelling and numbers, relay, and passing a formal message — before taking a net or field role. It's the procedure every voice tier in the plan uses.
 
 A standard field go-kit list is not yet defined {% include gap.html id="GAP-016" %}, and nor is a power standard {% include gap.html id="GAP-026" %}.
@@ -35,6 +37,6 @@ Every exercise, and every field deployment, starts the same way:
 2. **Sign-in.** Every participant signs the Operator Sign-In Sheet, confirming they are fit for duty, and signs out before leaving.
 3. **Safety briefing.** The safety officer briefs everyone from the Safety Briefing and Job Hazard Analysis, adds any site-specific hazards, and each participant signs the briefing record.
 
-Exercise traffic starts and ends with **EXERCISE**. A real emergency during an exercise is called with **NO DUFF**, which stops all exercise traffic. Anyone can stop the exercise for a safety concern.
+Exercise traffic starts and ends with **EXERCISE** {% include gap.html id="GAP-056" %}. A real emergency during an exercise is called with **NO DUFF**, which stops all exercise traffic. Anyone can stop the exercise for a safety concern.
 
 Both forms are printable annexes of the WICEN-WA Operations Manual.

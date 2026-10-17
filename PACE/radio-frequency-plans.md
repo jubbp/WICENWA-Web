@@ -55,7 +55,7 @@ Digital Messaging
 
 ## VHF / UHF Regional Nets
 
-Purpose: Local operational communications.
+Purpose: Local operational communications. A standard WICEN VHF/UHF channel plan for members to program is not yet defined {% include gap.html id="GAP-058" %}.
 
 Typical structure:
 

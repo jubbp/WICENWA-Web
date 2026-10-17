@@ -276,3 +276,23 @@
   title: Multi-day station moves (leapfrogging) and overnight remote stations not planned
   domain: Event Support
   status: Open
+
+- id: GAP-055
+  title: No code of conduct for members
+  domain: All domains
+  status: Open
+
+- id: GAP-056
+  title: Two different conventions for marking exercise traffic
+  domain: All voice and message traffic
+  status: Open
+
+- id: GAP-057
+  title: Message Handling has two message formats without saying which is used when
+  domain: Message Handling
+  status: Open
+
+- id: GAP-058
+  title: No standard VHF/UHF channel plan for members to program
+  domain: Local/Tactical Field Comms
+  status: Open

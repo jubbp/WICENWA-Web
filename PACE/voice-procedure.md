@@ -77,7 +77,7 @@ Good strength and readability is assumed unless you say otherwise. Ask with **RA
 
 These are the steps *within* a voice tier before the channel is abandoned — the first rungs of the tier triggers the plan still needs (see the [Domain Summary](./domain-summary) methodology check).
 
-**Call-sign identification.** Whatever procedure is in use, stations must still identify as required by their licence conditions — see [Message Handling](./message-handling). [CHECK: confirm how abbreviated procedure sits with the ACMA identification rule for a series of transmissions.] During exercises, say **"exercise only"** before your call sign every time.
+**Call-sign identification.** Whatever procedure is in use, stations must still identify as required by their licence conditions — see [Message Handling](./message-handling). [CHECK: confirm how abbreviated procedure sits with the ACMA identification rule for a series of transmissions.] During exercises, say **"exercise only"** before your call sign every time {% include gap.html id="GAP-056" %}.
 
 ## Passing messages
 
