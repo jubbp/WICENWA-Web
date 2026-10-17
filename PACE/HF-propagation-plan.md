@@ -46,7 +46,7 @@ These frequencies are used for statewide coordination.
 | Band | Frequency | Mode | Purpose |
 |-----|-----|-----|-----|
 | 40m | 7.110 MHz | LSB | Primary statewide voice net |
-| 80m | 3.600 MHz | LSB | Night statewide voice net |
+| 80m | 3.610 MHz | LSB | Night statewide voice net |
 | 20m | 14.300 MHz | USB | Interstate liaison |
 
 ## Daytime Operations (0700–1800 WST)
@@ -74,7 +74,7 @@ Primary Band: 80m
 
 | Frequency | Mode | Purpose |
 |-----------|------|---------|
-| 3.600 MHz | LSB | Statewide coordination |
+| 3.610 MHz | LSB | Statewide coordination |
 | 3.650 MHz | LSB | Alternate coordination |
 | 3.580 MHz | LSB | Tactical operations |
 
@@ -123,7 +123,7 @@ Regular nets ensure all stations remain informed.
 Example schedule:
 
 00 minutes past hour  
-Statewide situation report {% include gap.html id="GAP-042" %}
+Statewide status net
 
 30 minutes past hour  
 Operational coordination

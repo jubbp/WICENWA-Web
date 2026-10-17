@@ -104,7 +104,7 @@ Dedicated net-logging software (e.g. [NCLog](http://nclog.org/), built specifica
 
 ## Situation Reports (SITREP)
 
-WICEN WA operates under [AIIMS](https://www.afac.com.au/AIIMS), not the US ICS forms culture — AIIMS's primary recurring documentation artifact is the **Situation Report (SITREP)**, not a numbered form {% include gap.html id="GAP-042" %}.
+WICEN WA operates under [AIIMS](https://www.afac.com.au/AIIMS), not the US ICS forms culture — AIIMS's primary recurring documentation artifact is the **Situation Report (SITREP)**, not a numbered form. The hourly statewide *status net* on [Radio Frequencies](./radio-frequency-plans) is not a SITREP: it is a regular check-in, while a SITREP is a reviewed summary of the incident.
 
 A SITREP is published at a fixed interval — commonly every 24 hours for an extended incident, more often for a fast-moving one. Each functional area (Operations, Logistics, Planning, and so on) updates its own section; those sections roll up into one master SITREP, reviewed before release.
 

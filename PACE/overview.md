@@ -22,7 +22,7 @@ Alternate
 Contingency  
 Emergency  
 
-Each layer assumes the previous layer has failed — **with one exception**: within the Local/Tactical Field Comms domain, the Alternate tier (MeshCore) {% include gap.html id="GAP-010" %} is run in parallel with Primary as standard practice, not held in reserve. See the [Domain Summary](./domain-summary) for why this plan is organised into domains rather than one universal ladder, and for that exception in full.
+Each layer assumes the previous layer has failed — **with one exception**: within the Local/Tactical Field Comms domain, the Alternate tier (local digital mesh/messaging — technology not yet chosen {% include gap.html id="GAP-009" %}) is run in parallel with Primary as standard practice, not held in reserve. See the [Domain Summary](./domain-summary) for why this plan is organised into domains rather than one universal ladder, and for that exception in full.
 
 This document covers:
 

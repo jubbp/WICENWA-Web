@@ -18,18 +18,19 @@ incidents: []
 #     controller_callsign: VK6XXX
 #     controller_name: John Smith
 
-# Comms channels - update as needed per incident
+# Comms channels - update as needed per incident. Keep in step with
+# PACE/radio-frequency-plans.md and PACE/HF-propagation-plan.md.
 comms_channels:
-  - name: Primary
-    detail: "80m LSB — 3.610 MHz"
-  - name: Alternate
-    detail: "40m LSB — 7.110 MHz"
-  - name: Contingency
-    detail: "20m USB — 14.300 MHz"
+  - name: Statewide net (primary)
+    detail: "40m LSB — 7.110 MHz by day · 80m LSB — 3.610 MHz at night"
+  - name: Statewide net (alternate)
+    detail: "40m LSB — 7.090 MHz by day · 80m LSB — 3.650 MHz at night"
   - name: Digital
-    detail: "JS8Call / Winlink — see frequencies page"
-  - name: Local VHF
-    detail: "2m 146.500— 145.200 MHz APRS"
+    detail: "40m — 7.078 MHz (JS8Call) · Winlink — see Radio Frequencies page"
+  - name: Interstate liaison
+    detail: "20m USB — 14.300 MHz"
+  - name: Local VHF/UHF
+    detail: "Repeater or simplex channel announced for each incident"
 
 # Resource links shown on the page
 resources:

@@ -34,7 +34,7 @@ Net procedure — directed and free nets, REPORTING INTO NET, handing over with 
 
 This plan provides recommended frequencies for statewide and regional communications.
 
-Actual frequencies may vary depending on interference and propagation conditions. The channel list on the incident page does not yet match this plan {% include gap.html id="GAP-041" %}.
+Actual frequencies may vary depending on interference and propagation conditions. The channel list on the [incident page](/incident) follows this plan.
 
 
 ## HF Statewide Net
@@ -48,7 +48,7 @@ Alternate Day Frequency
 7.090 MHz LSB
 
 Night Frequency  
-3.600 MHz LSB
+3.610 MHz LSB (VK emergency communications frequency, WIA band plan 2026-1)
 
 Digital Messaging  
 7.078 MHz (digital modes)
@@ -80,7 +80,7 @@ Scheduled nets ensure all stations remain informed.
 Example schedule:
 
 00 minutes past hour  
-Statewide SITREP Net {% include gap.html id="GAP-042" %}
+Statewide status net — stations report their status. This is not an AIIMS Situation Report (SITREP); see [Message Handling](./message-handling).
 
 30 minutes past hour  
 Operational coordination net

@@ -55,7 +55,7 @@
 - id: GAP-010
   title: Overview names MeshCore as the Local/Tactical Alternate tier, but no technology has been chosen
   domain: Local/Tactical Field Comms
-  status: Open
+  status: Resolved
 
 - id: GAP-011
   title: SITREP compiler, interval and reviewer not defined
@@ -210,12 +210,12 @@
 - id: GAP-041
   title: Incident page channel list doesn't match the frequency plan
   domain: Radio Frequencies
-  status: Open
+  status: Resolved
 
 - id: GAP-042
   title: '"SITREP" used for both the hourly net and the AIIMS Situation Report'
   domain: Strategic Coordination
-  status: Open
+  status: Resolved
 
 - id: GAP-043
   title: 80m night coverage overstated — northern WA needs its own regional net control

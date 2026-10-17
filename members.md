@@ -27,7 +27,7 @@ The following resources are directed towards Members of WICEN-Wa but anyone may 
 |12m|24.950 Mhz USB||
 |10m|28.450 Mhz USB||
 |6m|53.150 Mhz USB||
-|2m||145.200 Mhz WICEN APRS|
+|2m||145.200 Mhz national WICEN frequency (not APRS)|
 |70cm|438.950 Mhz FM||
 
 --- 

@@ -753,7 +753,7 @@ function renderResult(scores) {
     immediate.push('Install <strong>WSJT-X</strong> (free) and try FT8 — it introduces you to computer-audio radio interfaces and weak-signal digital modes, and is a direct stepping stone to Winlink');
   }
   if (licenceVal >= 1) {
-    immediate.push('Join the WICEN WA weekly net: <strong>3.600 MHz LSB</strong> at 20:00 local — or via the WA AllStar linked repeater network on 2m');
+    immediate.push('Join the WICEN WA weekly net: <strong>3.610 MHz LSB</strong> at 20:00 local — or via the WA AllStar linked repeater network on 2m');
   }
   if (ncVal === 0) {
     immediate.push('Listen to several directed nets and note how Net Control manages check-ins, handles traffic, and closes the net — the WICEN WA weekly net is a good starting point');

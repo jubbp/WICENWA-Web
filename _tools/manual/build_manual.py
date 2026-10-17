@@ -247,7 +247,7 @@ def annexes_html(gaps, scans):
     out.append(annex_open("frequency-card", "Frequency Quick Reference") + """
 <p>Compiled from Chapters 8–10. Frequencies may change with interference and propagation; Net Control directs any change. <span class="gap-ref">GAP-041</span></p>
 <table class="data"><thead><tr><th>Use</th><th>Day (0700–1800 WST)</th><th>Night (1800–0700 WST)</th><th>Mode</th></tr></thead><tbody>
-<tr><td>Statewide coordination</td><td>7.110 MHz</td><td>3.600 MHz</td><td>LSB</td></tr>
+<tr><td>Statewide coordination</td><td>7.110 MHz</td><td>3.610 MHz</td><td>LSB</td></tr>
 <tr><td>Alternate coordination</td><td>7.090 MHz</td><td>3.650 MHz</td><td>LSB</td></tr>
 <tr><td>Tactical operations</td><td>7.130 MHz</td><td>3.580 MHz</td><td>LSB</td></tr>
 <tr><td>Interstate liaison</td><td colspan="2">14.300 MHz (alternate 14.250 MHz)</td><td>USB</td></tr>
