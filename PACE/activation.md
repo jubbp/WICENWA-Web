@@ -34,7 +34,7 @@ Triggers for stepping between tiers are not yet defined {% include gap.html id="
 
 | Level | Method | Description |
 |------|------|-------------|
-| PRIMARY | Internet Messaging | WICEN-WA App / Signal / Discord {% include gap.html id="GAP-005" %} {% include gap.html id="GAP-044" %} |
+| PRIMARY | Internet Messaging | Discord / Signal (a WICEN WA app is proposed but not yet built) {% include gap.html id="GAP-005" %} {% include gap.html id="GAP-044" %} |
 | ALTERNATE | Email Distribution | WICEN-WA email group |
 | CONTINGENCY | SMS Broadcast | Bulk SMS alert |
 | EMERGENCY | Amateur Radio Alert Net | HF activation frequency |

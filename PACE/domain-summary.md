@@ -21,7 +21,7 @@ This page names those **domains** explicitly, so a reader can see the whole shap
 
 | Domain | Scope | Primary | Alternate | Contingency | Emergency |
 |---|---|---|---|---|---|
-| [Activation & Alerting](./activation) | Getting members mobilised before/at the start of an incident | Internet Messaging (App/Signal/Discord) | Email Distribution | SMS Broadcast | Amateur Radio Alert Net (HF) |
+| [Activation & Alerting](./activation) | Getting members mobilised before/at the start of an incident | Internet Messaging (Discord/Signal; a WICEN WA app is proposed) | Email Distribution | SMS Broadcast | Amateur Radio Alert Net (HF) |
 | [Strategic Coordination](./operational) | Incident-level coordination and command, once activated | Internet Collaboration Platform | Amateur Radio Voice Nets | Amateur Radio Digital Messaging | Voice Relay Network |
 | [Long-Haul Message Traffic](./digital-messaging-architecture) | Structured, state/regional-scale message traffic over HF | Winlink (HF) | JS8Call (HF) | *Not yet defined* {% include gap.html id="GAP-001" %} | *Not yet defined* {% include gap.html id="GAP-002" %} |
 | Local/Tactical Field Comms | Team-level comms for a single field unit or task group | VHF/UHF Voice (simplex/repeater) | Local digital mesh/messaging — technology not yet chosen {% include gap.html id="GAP-009" %} | HF Voice (if the team is remote enough to need it) | Runner / face-to-face {% include gap.html id="GAP-039" %} |
