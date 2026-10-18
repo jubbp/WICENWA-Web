@@ -26,7 +26,7 @@ How a supported agency requests WICEN is not yet defined {% include gap.html id=
 
 - WICEN-WA State Coordinator
 - Deputy Coordinator
-- Designated Incident Controller {% include gap.html id="GAP-020" %}
+- WICEN Incident Coordinator — the person the State Coordinator puts in charge of WICEN's part of an incident
 
 ## Activation PACE
 
@@ -52,7 +52,7 @@ WICEN-WA ACTIVATION
 - Activation Level:
 - Reporting Location:
 - Primary Net Frequency:
-- Online Information:
+- Where to find updates:
 - Next Update Time:
 
 Example:
@@ -63,7 +63,7 @@ WICEN-WA ACTIVATION
 - Location: Wheatbelt
 - Activation Level: Standby
 - Primary Net: 7.110 MHz LSB
-- Information: https://wicenwa.org/incident
+- Updates: [method to be decided] {% include gap.html id="GAP-059" %}
 - Next Update: 1400 WST
 
 ## WICEN Status
@@ -85,7 +85,7 @@ The State Coordinator will activate a "Watch Net" on the available frequencies i
 
 Each member on watch should check in with the SC or net controller as their status (availablity, capabilities change)
 
-The State Coordinator will activate a digital information station. The digital information station will coordinate the distribution of information in a digital form. The DIS will hopefully update the incident page on the WICEN website with up to date information. They will also instigate the Information Beacon (APRS,JS8CALL,WINLINK) which will allow members to gather information as they are possible.
+The State Coordinator will activate a digital information station. The digital information station will coordinate the distribution of information in a digital form. How it gets information to members is still to be decided {% include gap.html id="GAP-059" %}. The DIS will also instigate the Information Beacon (APRS,JS8CALL,WINLINK) which will allow members to gather information as they are possible.
 
 ### "OnWatch" to Activated
 

@@ -105,7 +105,7 @@
 - id: GAP-020
   title: '"Incident Controller" used as a WICEN role, which conflicts with the AIIMS role of the same name'
   domain: Activation & Alerting
-  status: Open
+  status: Resolved
 
 - id: GAP-021
   title: Deployment model doesn't place WICEN within the controlling agency's Logistics section / Communications Unit
@@ -155,7 +155,7 @@
 - id: GAP-030
   title: Incident page is designed to publish operational detail (frequencies, deployment instructions) publicly
   domain: Incident Information
-  status: Open
+  status: Resolved
 
 - id: GAP-031
   title: No rule for relaying public warnings — Emergency WA is the authoritative source
@@ -295,4 +295,9 @@
 - id: GAP-058
   title: No standard VHF/UHF channel plan for members to program
   domain: Local/Tactical Field Comms
+  status: Open
+
+- id: GAP-059
+  title: No method for distributing incident information to members
+  domain: Incident Information
   status: Open

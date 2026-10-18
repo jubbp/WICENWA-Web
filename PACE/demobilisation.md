@@ -45,4 +45,4 @@ WICEN never stands down a tasked service without first telling the agency or eve
 - **Welfare follow-up** with each member within a few days. Anyone affected by what they saw or did can also call Lifeline on 13 11 14.
 - **Restore readiness** — recharge batteries, replace consumables, repair kit and restock 72-hour kits, so WICEN is ready for the next activation.
 - **Formal debrief** within about two weeks, with a short report to the supported agency. Lessons are fed back into this plan {% include gap.html id="GAP-035" %}.
-- **Return to Stand By.** The State Coordinator returns WICEN to Stand By, tells members on every alerting channel, and updates the [incident page](/incident).
+- **Return to Stand By.** The State Coordinator returns WICEN to Stand By, tells members on every alerting channel.

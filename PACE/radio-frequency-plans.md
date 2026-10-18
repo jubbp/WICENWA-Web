@@ -34,7 +34,7 @@ Net procedure — directed and free nets, REPORTING INTO NET, handing over with 
 
 This plan provides recommended frequencies for statewide and regional communications.
 
-Actual frequencies may vary depending on interference and propagation conditions. The channel list on the [incident page](/incident) follows this plan.
+Actual frequencies may vary depending on interference and propagation conditions.
 
 
 ## HF Statewide Net
