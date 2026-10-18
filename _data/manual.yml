@@ -15,6 +15,21 @@ title: WICEN-WA Operations Manual
 status: DRAFT
 
 revisions:
+  - revision: "0.5"
+    date: 18 October 2026
+    by: Phillip Jubb
+    changes: >-
+      Committee decisions: rules adopted on self-deployment (Ch 3), relaying
+      public warnings (Ch 15) and personal information over amateur radio
+      (Ch 13, Event Support); domain order added to the Domain Summary, and the
+      missing Long-Haul and Cross-State tiers marked not provided, by decision.
+      "Designated Incident Controller" renamed WICEN Incident Coordinator. The
+      public incident status page removed; how members get incident information
+      is now an open gap (GAP-059). Alerting primary is Discord / Signal (a WICEN
+      WA app is proposed, not built). Training chapter: membership classes and
+      what is expected of members. Job Hazard Analysis renamed Activity Safety
+      Assessment. Known Gaps annex lists open gaps first, then resolved and
+      accepted gaps.
   - revision: "0.4"
     date: 17 October 2026
     by: Phillip Jubb
