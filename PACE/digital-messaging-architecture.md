@@ -15,8 +15,8 @@ Triggers for stepping between tiers are not yet defined {% include gap.html id="
 |------|------|------|
 | PRIMARY | Winlink (HF) | Structured, email-style messaging with forms and attachments |
 | ALTERNATE | JS8Call (HF) | Weak-signal, store-and-forward messaging {% include gap.html id="GAP-007" %} |
-| CONTINGENCY | *Not yet defined* {% include gap.html id="GAP-001" %} | |
-| EMERGENCY | *Not yet defined* {% include gap.html id="GAP-002" %} | |
+| CONTINGENCY | *Not provided, by decision* {% include gap.html id="GAP-001" %} | Long-Haul is a later-stage domain; the committee chose not to build these tiers yet |
+| EMERGENCY | *Not provided, by decision* {% include gap.html id="GAP-002" %} | As above |
 
 Digital messaging provides resilient, structured communications during
 emergency operations.

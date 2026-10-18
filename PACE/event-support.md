@@ -65,7 +65,7 @@ A draft checkpoint report {% include gap.html id="GAP-048" %}:
 
 > CHECKPOINT (name), TIME (hhmm) — THROUGH: (bib numbers) — WITHDRAWN: (bib number, reason) — SWEEP PASSED: (yes/no)
 
-Bib numbers are read digit by digit (*"Two One Four"*) and read back by Net Control. On busy checkpoints, report in batches at fixed intervals rather than one competitor at a time. Competitor names and medical details are personal information and should not be sent over the air {% include gap.html id="GAP-032" %}.
+Bib numbers are read digit by digit (*"Two One Four"*) and read back by Net Control. On busy checkpoints, report in batches at fixed intervals rather than one competitor at a time. Competitor names and medical details are personal information and are not sent by voice — use the bib number (see [Personal information](./message-handling#personal-information)).
 
 ## Missing or overdue competitors
 

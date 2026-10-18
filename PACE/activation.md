@@ -79,7 +79,9 @@ WICEN-WA ACTIVATION
 
 In the case that WICEN becomes aware of a possible need our assistance, the State Coordinator or their delagate will place WICEN "On Watch".
 
-On watch moves all members into a monitoring actively for activations messages. Members actively on watch should turn on and test their equipment. They should prepare their 72 hour kit. {% include gap.html id="GAP-019" %}
+On watch moves all members into a monitoring actively for activations messages. Members actively on watch should turn on and test their equipment. They should prepare their 72 hour kit.
+
+**No self-deployment.** No member goes to an incident area, or offers WICEN's services to an agency or the public at an incident, unless tasked by the State Coordinator or the WICEN Incident Coordinator. Being On Watch or Activated means *be ready*, not *go*. A member who is already in an affected area for their own reasons stays a private person until tasked.
 
 The State Coordinator will activate a "Watch Net" on the available frequencies in the comms plan. If necessary, they will nominate a watch station who will monitor the appropriate frequencies.
 

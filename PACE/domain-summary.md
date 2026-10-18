@@ -23,9 +23,9 @@ This page names those **domains** explicitly, so a reader can see the whole shap
 |---|---|---|---|---|---|
 | [Activation & Alerting](./activation) | Getting members mobilised before/at the start of an incident | Internet Messaging (Discord/Signal; a WICEN WA app is proposed) | Email Distribution | SMS Broadcast | Amateur Radio Alert Net (HF) |
 | [Strategic Coordination](./operational) | Incident-level coordination and command, once activated | Internet Collaboration Platform | Amateur Radio Voice Nets | Amateur Radio Digital Messaging | Voice Relay Network |
-| [Long-Haul Message Traffic](./digital-messaging-architecture) | Structured, state/regional-scale message traffic over HF | Winlink (HF) | JS8Call (HF) | *Not yet defined* {% include gap.html id="GAP-001" %} | *Not yet defined* {% include gap.html id="GAP-002" %} |
+| [Long-Haul Message Traffic](./digital-messaging-architecture) | Structured, state/regional-scale message traffic over HF | Winlink (HF) | JS8Call (HF) | *Not provided, by decision* {% include gap.html id="GAP-001" %} | *Not provided, by decision* {% include gap.html id="GAP-002" %} |
 | Local/Tactical Field Comms | Team-level comms for a single field unit or task group | VHF/UHF Voice (simplex/repeater) | Local digital mesh/messaging — technology not yet chosen {% include gap.html id="GAP-009" %} | HF Voice (if the team is remote enough to need it) | Runner / face-to-face {% include gap.html id="GAP-039" %} |
-| [Cross-State Coordination](./cross-state-coordination) | Liaison with interstate amateur emergency comms groups | Internet Collaboration Platform | Winlink HF Email | HF Voice Liaison | *Not yet defined* {% include gap.html id="GAP-003" %} |
+| [Cross-State Coordination](./cross-state-coordination) | Liaison with interstate amateur emergency comms groups | Internet Collaboration Platform | Winlink HF Email | HF Voice Liaison | *Not provided, by decision* {% include gap.html id="GAP-003" %} |
 | [Event Support](./event-support) | Communications for a planned event, run for the organiser's race control | VHF/UHF net to race control | Simplex relay via intermediate stations | HF NVIS or the event's own UHF CB | Satellite messenger/phone, then runner or vehicle {% include gap.html id="GAP-045" %} |
 
 Most Primary tiers depend on internet or mobile networks, which are often the first thing to fail in the incidents WICEN is called to {% include gap.html id="GAP-025" %}. Every tier also depends on power {% include gap.html id="GAP-026" %}.
@@ -35,6 +35,16 @@ Local/Tactical Field Comms doctrine (node roles, standing orders, use cases) is 
 **Cross-cutting — not a ladder:** *Situational Awareness* (APRS position/message beacons, and adverts from whichever local mesh system is chosen) runs alongside whichever tier of whichever domain is currently active, rather than sitting in any one domain's ladder.
 
 **Cross-cutting — voice procedure:** every voice tier in every domain above — the HF alert net, voice nets, the voice relay network, field VHF/UHF and HF, and interstate HF liaison — uses the same [Voice Procedure (RATEL)](./voice-procedure). The ladders say which system to use; that page says how to talk on it.
+
+## Order of work
+
+WICEN WA is a small organisation, so the domains are finished and practised in this order:
+
+1. **Event Support** — the work WICEN WA does most.
+2. **Local/Tactical Field Comms** — used at every event and every deployment.
+3. **Activation & Alerting** — needed before any agency can use WICEN.
+4. **Strategic Coordination** — needed once WICEN supports anything bigger than one site.
+5. **Later: Long-Haul Message Traffic and Cross-State Coordination.** Their missing tiers are marked *not provided, by decision* rather than left looking unfinished.
 
 ## Permanent infrastructure vs portable capability
 

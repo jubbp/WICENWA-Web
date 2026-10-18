@@ -21,7 +21,7 @@ Contingency
 HF voice liaison stations
 
 Emergency  
-*Not yet defined* {% include gap.html id="GAP-003" %}
+*Not provided, by decision* {% include gap.html id="GAP-003" %} — Cross-State is a later-stage domain
 
 Triggers for stepping between tiers are not yet defined {% include gap.html id="GAP-004" %}.
 

@@ -57,24 +57,18 @@ WICENWA has a discord server which provides an excellent environment for interac
 
 WICEN WA welcomes amateur radio operators and others interested in emergency communications.
 
-We have 2 levels of membership.
+WICEN WA's Constitution has two classes of membership:
 
-### Financial Member
+- **Ordinary member** — for licensed amateur operators (or holders of a qualification the committee accepts). Membership costs $25 a year and gives you a vote at general meetings and the right to stand for the committee.
+- **Associate member** — for anyone who wants to support WICEN WA's activities. No fee and no vote. Members under 18 join as associates.
 
-Membership of WICEN WA costs $25 and entitles you to vote on club business and participate in the comittee.
+Both classes can take part in any activity they are trained for. Every new member:
 
-### Associate Member
+- completes the induction (F1) within three months, before their first event or exercise
+- fills in the Capability Declaration and keeps their details current
+- follows the code of conduct, and never self-deploys
 
-Associate members of WICEN WA are operators who would like to participate in WICEN activies and are willing to undertake necessary training.
-
-### Requirements
-
-- Interest in emergency communications and amateur radio
-- Amateur radio license (or willingness to obtain one)
-- Commitment to volunteer service
-- Attendance at training sessions
-
-
+WICEN WA in turn gives you training for each role, a safety briefing every time, and plain information about what our insurance does and doesn't cover. The full list is under [Membership and what's expected](/PACE/training#membership-and-whats-expected) in the plan.
 
 ## Get Started
 

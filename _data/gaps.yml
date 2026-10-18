@@ -10,17 +10,17 @@
 - id: GAP-001
   title: Long-Haul Message Traffic has no Contingency tier
   domain: Long-Haul Message Traffic
-  status: Open
+  status: Accepted
 
 - id: GAP-002
   title: Long-Haul Message Traffic has no Emergency tier
   domain: Long-Haul Message Traffic
-  status: Open
+  status: Accepted
 
 - id: GAP-003
   title: Cross-State Coordination has no Emergency tier
   domain: Cross-State Coordination
-  status: Open
+  status: Accepted
 
 - id: GAP-004
   title: No domain defines triggers for stepping between PACE tiers
@@ -100,7 +100,7 @@
 - id: GAP-019
   title: No explicit rule against self-deployment
   domain: Activation & Alerting
-  status: Open
+  status: Resolved
 
 - id: GAP-020
   title: '"Incident Controller" used as a WICEN role, which conflicts with the AIIMS role of the same name'
@@ -140,12 +140,12 @@
 - id: GAP-027
   title: No rostering or fatigue management for sustained operations
   domain: Deployment
-  status: Open
+  status: In discussion
 
 - id: GAP-028
   title: No field safety arrangements — welfare check-ins, lone operators, agency safety inductions
   domain: Deployment
-  status: Open
+  status: In discussion
 
 - id: GAP-029
   title: No access and entry requirements — insurance, agency induction, ID for road closures, fireground training and protective clothing
@@ -160,12 +160,12 @@
 - id: GAP-031
   title: No rule for relaying public warnings — Emergency WA is the authoritative source
   domain: Incident Information
-  status: Open
+  status: Resolved
 
 - id: GAP-032
   title: No rule on sending personal or sensitive information over amateur radio, which cannot be encrypted
   domain: Message Handling
-  status: Open
+  status: Resolved
 
 - id: GAP-033
   title: No retention of logs and message records, or handover to the controlling agency
@@ -301,3 +301,8 @@
   title: No method for distributing incident information to members
   domain: Incident Information
   status: Open
+
+- id: GAP-060
+  title: Member expectations not defined — membership classes, what WICEN expects of members and what members can expect
+  domain: All domains
+  status: Resolved

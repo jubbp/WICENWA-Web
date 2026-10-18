@@ -9,7 +9,11 @@ Once WICEN is On Watch or Activated, members need the latest operational informa
 
 How that information is distributed to members is not yet decided {% include gap.html id="GAP-059" %}. A public incident status page on the WICEN WA website was considered and dropped: keeping it current needs website skills and access the coordinator may not have during an incident, and it would publish operational detail to anyone.
 
-Rules for relaying official public warnings are not yet defined {% include gap.html id="GAP-031" %}.
+## Relaying public warnings
+
+WICEN WA does not issue public warnings or advice. [Emergency WA](https://www.emergency.wa.gov.au) and ABC radio, as the emergency broadcaster, are the authoritative sources.
+
+If WICEN relays a warning — for example, to a relief centre that has lost other communications — it is passed word for word, naming the issuing agency and the time it was issued, and the recipient is told the authoritative source is Emergency WA or ABC radio. WICEN members do not summarise, interpret or add to a warning, and do not post warnings on WICEN's own website or social media except as a link to the issuing agency.
 
 ## Relationship to WA's Emergency Public Information arrangements
 

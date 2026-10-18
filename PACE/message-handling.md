@@ -67,7 +67,13 @@ WICEN's RATEL manual defines a fuller formal message than the format above. Its 
 
 *Example:* "VK6BB, message number zero five slant one five, routine, TIME one five one one three zero hotel, OPS one six, from Bloggs, to Jones, BREAK, PARA ONE, do you have any batteries, FULL STOP, para two nil return required, FULL STOP, MESSAGE ENDS, OVER."
 
-Rules on sending personal or sensitive information are not yet defined {% include gap.html id="GAP-032" %}.
+## Personal information
+
+Amateur radio is in the clear: anyone with a receiver can listen, and messages cannot be encrypted.
+
+Do not send names, addresses, phone numbers, medical details or the condition of an identified person by voice. Use a bib number, a tag, a location or a pre-agreed reference instead (for example, *"Runner 214 needs assistance at Checkpoint 3"*). Where a supported agency or organiser needs personal details passed, use the means they agree — normally their own phone or radio, or a digital message with the minimum detail needed — and record what was sent. If in doubt, ask the receiving station to call by phone.
+
+This rule is confirmed with each supported agency or event organiser as part of the event support agreement {% include gap.html id="GAP-046" %}.
 
 **Received messages** are rewritten onto a form (in duplicate if needed), given an IN serial number, logged, and the original goes to the addressee. Sent and received copies are filed separately.
 

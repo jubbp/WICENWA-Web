@@ -7,6 +7,8 @@ title: Draft Mission Statement and Aims
 
 *This is a first draft, not an adopted statement. It should be revised once the [Discussion Paper](/discussion-paper) has actually been discussed — several of the aims below are written provisionally, on a working assumption about which direction the membership wants, and are flagged as such.*
 
+**Committee decision (October 2026):** WICEN WA follows the **staged hybrid** model — event support and training now, building deliberately toward served-agency work as numbers and skills grow. The aims below were written on that assumption, so they stand as drafted until the page is revised.
+
 ---
 
 ## Mission Statement (draft)
