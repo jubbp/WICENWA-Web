@@ -13,5 +13,14 @@ Gaps are worked through by the committee in WICEN WA's PACE Gap Register, a memb
 
 | ID | Gap | Domain | Status |
 |---|---|---|---|
-{% for g in site.data.gaps %}| <span id="{{ g.id | downcase }}">{{ g.id }}</span> | {{ g.title }} | {{ g.domain }} | {{ g.status }} |
-{% endfor %}
+{% for g in site.data.gaps %}{% unless g.status == "Resolved" or g.status == "Accepted" %}| <span id="{{ g.id | downcase }}">{{ g.id }}</span> | {{ g.title }} | {{ g.domain }} | {{ g.status }} |
+{% endunless %}{% endfor %}
+
+### Resolved and accepted
+
+Gaps that have been resolved (the plan has been updated) or accepted (deliberately left, by decision).
+
+| ID | Gap | Domain | Status |
+|---|---|---|---|
+{% for g in site.data.gaps %}{% if g.status == "Resolved" or g.status == "Accepted" %}| <span id="{{ g.id | downcase }}">{{ g.id }}</span> | {{ g.title }} | {{ g.domain }} | {{ g.status }} |
+{% endif %}{% endfor %}
