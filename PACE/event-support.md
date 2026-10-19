@@ -37,10 +37,10 @@ Triggers for stepping between tiers are not yet defined {% include gap.html id="
 ## Engagement lifecycle
 
 1. **Request.** The organiser contacts WICEN WA's single point of contact.
-2. **Scope.** Agree what WICEN will and won't do: which sites, which days, how many operators, what the organiser provides (access, food, shelter, power) {% include gap.html id="GAP-046" %}.
+2. **Scope.** Size the event and check who is available ([Planning a Deployment](./planning)). Agree what WICEN will and won't do: which sites, which days, how many operators, what the organiser provides (access, food, shelter, power) {% include gap.html id="GAP-046" %}.
 3. **Agreement.** Confirm scope, responsibilities and insurance in writing. Check what the licence conditions allow {% include gap.html id="GAP-053" %}.
 4. **Coverage survey.** Visit the course and test every site and path before the event. Plan relays and portable repeaters where needed {% include gap.html id="GAP-052" %}.
-5. **Communications plan.** A written plan the organiser can attach to their event safety plan: every site, every channel, every contact, and what happens when each tier fails {% include gap.html id="GAP-047" %}.
+5. **Communications plan.** A written plan the organiser can attach to their event safety plan: every site, every channel, every contact, and what happens when each tier fails — use the template in [Planning a Deployment](./planning#7-communications-plan) {% include gap.html id="GAP-047" %}.
 6. **Briefing.** Operators, race control and key event staff briefed together, including the escalation and missing-competitor procedures.
 7. **Operate.** Run the net for race control. Over multiple days, stations move ahead of the field, and some stay out overnight {% include gap.html id="GAP-054" %}.
 8. **Demobilise and report back.** See [Demobilisation](./demobilisation). Logs go to the organiser, and both sides debrief.

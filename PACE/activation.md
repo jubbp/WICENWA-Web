@@ -83,6 +83,8 @@ On watch moves all members into a monitoring actively for activations messages. 
 
 **No self-deployment.** No member goes to an incident area, or offers WICEN's services to an agency or the public at an incident, unless tasked by the State Coordinator or the WICEN Incident Coordinator. Being On Watch or Activated means *be ready*, not *go*. A member who is already in an affected area for their own reasons stays a private person until tasked.
 
+The State Coordinator plans WICEN's response — appoints a Response Planner, sends the availability call-out, and works out what WICEN can offer — using [Planning a Deployment](./planning).
+
 The State Coordinator will activate a "Watch Net" on the available frequencies in the comms plan. If necessary, they will nominate a watch station who will monitor the appropriate frequencies.
 
 Each member on watch should check in with the SC or net controller as their status (availablity, capabilities change)
@@ -99,7 +101,7 @@ Details should be quickly delivered to the DIS for distribution
 
 ## Types of Activations
 
-When activating WICEN, the SC should determine the type of activation. If the activation is in support of a third party, there will be different requirements. The SC should determine the requirements for the activation and relay this information to the members.
+When activating WICEN, the SC should determine the type of activation. If the activation is in support of a third party, there will be different requirements. The SC should determine the requirements for the activation and relay this information to the members — see [Planning a Deployment](./planning) for the request intake, sizing, availability call-out and decision.
 
 - WICEN Activation
 - Served Agency Activation

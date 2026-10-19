@@ -35,6 +35,7 @@ PARTS = [
     ("Part 2 — Activation and Deployment", [
         ("activation", "Activation"),
         ("activation-flowchart", "Activation Flowchart"),
+        ("planning", "Planning a Deployment"),
         ("deployment-model", "Deployment Model"),
         ("demobilisation", "Demobilisation"),
     ]),

@@ -31,6 +31,7 @@ This document covers:
 
 - [Domain Summary](./domain-summary)
 - [Activation procedures](./activation)
+- [Planning a deployment](./planning)
 - [Operational communications](./operational)
 - [Radio frequency plans](./radio-frequency-plans)
 - [Message handling](./message-handling)

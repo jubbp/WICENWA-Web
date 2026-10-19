@@ -311,3 +311,13 @@
   title: No standard for reporting a position by radio — description, grid or lat long, read-back
   domain: All voice and message traffic
   status: Resolved
+
+- id: GAP-062
+  title: No process for planning WICEN's response — who is available, who is needed, and whether WICEN can respond as asked
+  domain: Activation & Alerting / Deployment
+  status: In discussion
+
+- id: GAP-063
+  title: No minimum response standard — the least WICEN will deploy, for safety and usefulness — and no decision on offering part of a request
+  domain: Deployment
+  status: Open
