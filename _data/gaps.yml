@@ -306,3 +306,8 @@
   title: Member expectations not defined — membership classes, what WICEN expects of members and what members can expect
   domain: All domains
   status: Resolved
+
+- id: GAP-061
+  title: No standard for reporting a position by radio — description, grid or lat long, read-back
+  domain: All voice and message traffic
+  status: Resolved

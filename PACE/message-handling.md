@@ -67,6 +67,8 @@ WICEN's RATEL manual defines a fuller formal message than the format above. Its 
 
 *Example:* "VK6BB, message number zero five slant one five, routine, TIME one five one one three zero hotel, OPS one six, from Bloggs, to Jones, BREAK, PARA ONE, do you have any batteries, FULL STOP, para two nil return required, FULL STOP, MESSAGE ENDS, OVER."
 
+**Received messages** are rewritten onto a form (in duplicate if needed), given an IN serial number, logged, and the original goes to the addressee. Sent and received copies are filed separately.
+
 ## Personal information
 
 Amateur radio is in the clear: anyone with a receiver can listen, and messages cannot be encrypted.
@@ -75,7 +77,23 @@ Do not send names, addresses, phone numbers, medical details or the condition of
 
 This rule is confirmed with each supported agency or event organiser as part of the event support agreement {% include gap.html id="GAP-046" %}.
 
-**Received messages** are rewritten onto a form (in duplicate if needed), given an IN serial number, logged, and the original goes to the addressee. Sent and received copies are filed separately.
+## Reporting a position
+
+Positions are passed so that the receiving station can find the place — on its own map, or by sending someone there. Every position is passed in the same order:
+
+1. **Description first:** the checkpoint or station name, or the road or track, and the nearest intersection, landmark or Main Roads SLK (straight line kilometre) marker.
+2. **Then coordinates, saying which kind:**
+   - **GRID** — the MGA zone, then the easting (six digits) and northing (seven digits), as shown on a topographic map, GPS or phone app; or a six-figure grid reference when both stations are using the same map sheet.
+   - **LAT LONG** — latitude and longitude in decimal degrees, to four decimal places, saying South and East.
+3. **The receiving station reads it back.** Digits are sent one by one, as in the [Voice Procedure](./voice-procedure).
+
+At the briefing, agree with the supported agency or event organiser which kind they want — agencies commonly work in grid or decimal degrees, and event organisers in checkpoint names — and use that kind throughout. If a station's position comes from a GPS or phone app, pass it as the device shows it; the differences between mapping standards are a few metres and don't matter for finding a place.
+
+*Example (grid):* "Checkpoint Three, on the gravel track two hundred metres north of the car park. GRID, zone 50, easting 373515, northing 6311526."
+
+*Example (lat long):* "Checkpoint Three, on the gravel track two hundred metres north of the car park. LAT LONG, 33.3280 South, 115.6410 East."
+
+A casualty or incident position is always passed with a description that a driver can follow — the vehicle access point and the route in — as well as the coordinates.
 
 ## Call Sign Identification
 

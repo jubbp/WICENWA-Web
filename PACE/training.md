@@ -55,6 +55,8 @@ A code of conduct for members is not yet adopted {% include gap.html id="GAP-055
 
 Every operator should know WICEN's [Voice Procedure (RATEL)](./voice-procedure) — calls and answers, prowords, spelling and numbers, relay, and passing a formal message — before taking a net or field role. It's the procedure every voice tier in the plan uses.
 
+Field operators also need to find their way to a site with a map and compass as well as a phone, and to [report a position](./message-handling#reporting-a-position) that the receiving station can use. Every member should be able to say where they are.
+
 A standard field go-kit list is not yet defined {% include gap.html id="GAP-016" %}, and nor is a power standard {% include gap.html id="GAP-026" %}.
 
 Agency access and entry requirements — insurance, inductions, ID, fireground training and protective clothing — are not yet defined {% include gap.html id="GAP-029" %}.
