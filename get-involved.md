@@ -10,7 +10,7 @@ Interested in emergency communications and amateur radio? There are many ways to
 
 ## Join the Net
 
-WICEN-WA holds a net every week starting at 20:00 hours local. The net runs concurrently on 80m and the VHF/UHF linked repeater network.
+WICEN-WA holds a net every Wednesday starting at 20:00 hours local. The net runs concurrently on 80m and the VHF/UHF linked repeater network.
 
 ### Frequency
 
