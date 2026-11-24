@@ -109,7 +109,7 @@ The manual is offered for download at `assets/manual/WICEN-WA-Operations-Manual.
 (linked from the PACE Overview and Member Info pages, which show the revision from
 `_data/manual.yml`). **Whenever the manual is republished, the current version must
 be republished to the website too.** Issue it with `python3 -I tools/export.py manual`
-in WICENWA-Records — that writes the same PDF to Google Drive and to this repository —
+in WICENWA-Management-System — that writes the same PDF to Google Drive and to this repository —
 then commit and push. `tools/export.py check` there reports if the website copy is
 not the current release.
 

@@ -8,7 +8,7 @@
 # (assets/manual/WICEN-WA-Operations-Manual.pdf, linked from the PACE Overview and
 # Member Info pages). Whenever the manual is republished, the website copy must be
 # replaced with the current version too: issue it with `tools/export.py manual` in
-# WICENWA-Records, which writes the same PDF to Drive and to this repository, then
+# WICENWA-Management-System, which writes the same PDF to Drive and to this repository, then
 # commit and push. Never update the website PDF any other way.
 
 title: WICEN-WA Operations Manual
