@@ -49,7 +49,7 @@ If you prefer interacting on Facebook, head over to our group page and join up. 
 
 WICENWA has a discord server which provides an excellent environment for interaction between our members and friends (mostly) without the advertising and tracking.
 
-[Join the Discord](https://discord.gg/z4Wmgp6fa7)
+[Join the Discord](https://discord.gg/6nBHYKCES2)
 
 ---
 
